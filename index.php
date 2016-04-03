@@ -1,3 +1,4 @@
+<?php $_GET['p'] = realpath($path = __DIR__ . '/'. $_GET['p'] . '.php') !== false ? $_GET['p'] : 'main'; ?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -16,13 +17,49 @@
         .grad {
             height: 5px;
             width: 100%;
+        }
 
+        .grad-main {
             background: #ffbf00; /* Old browsers */
             background: -moz-linear-gradient(left,  #ffbf00 0%, #a06114 100%); /* FF3.6-15 */
             background: -webkit-linear-gradient(left,  #ffbf00 0%,#a06114 100%); /* Chrome10-25,Safari5.1-6 */
             background: linear-gradient(to right,  #ffbf00 0%,#a06114 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbf00', endColorstr='#a06114',GradientType=1 ); /* IE6-9 */
         }
+
+        .grad-people {
+            background: #b103c4; /* Old browsers */
+            background: -moz-linear-gradient(left, #b103c4 0%, #420049 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #b103c4 0%,#420049 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #b103c4 0%,#420049 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b103c4', endColorstr='#420049',GradientType=1 );
+        }
+
+        .grad-code {
+            background: #0497f9; /* Old browsers */
+            background: -moz-linear-gradient(left, #0497f9 0%, #001c9b 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #0497f9 0%,#001c9b 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #0497f9 0%,#001c9b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0497f9', endColorstr='#001c9b',GradientType=1 );
+        }
+
+        .grad-docs {
+            background: #ef0408; /* Old browsers */
+            background: -moz-linear-gradient(left, #ef0408 0%, #5b0001 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #ef0408 0%,#5b0001 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #ef0408 0%,#5b0001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef0408', endColorstr='#5b0001',GradientType=1 );
+        }
+
+        .grad-positions {
+            background: #6be004; /* Old browsers */
+            background: -moz-linear-gradient(left, #6be004 0%, #0e5900 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #6be004 0%,#0e5900 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #6be004 0%,#0e5900 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6be004', endColorstr='#0e5900',GradientType=1 );
+        }
+
+        
 
         header {
             -webkit-box-shadow: inset 0 10px 10px -10px rgba(0,0,0,0.8);
@@ -39,16 +76,6 @@
             float: left;
         }
 
-        #header-info {
-            float: left;
-            margin-left: 40px;
-            width: 450px;
-        }
-
-        #header-info p {
-            font-size: 0.9em;
-        }
-
         header h1 {
             text-shadow: 2px 2px #000;
         }
@@ -57,7 +84,6 @@
             width: 100%;
             height: 110px;
             display: table;
-            box-sizing: border-box;
         }
 
         #logo {
@@ -94,7 +120,7 @@
             padding-bottom: 5px;
         }
 
-        nav li:hover {
+        nav li:hover, nav li.active {
             border-bottom: 3px solid #ffbf00;
         }
 
@@ -104,7 +130,7 @@
             font-size: 1em;
         }
 
-        nav a:hover {
+        nav a:hover, nav li.active a {
             color: #000;
         }
 
@@ -112,6 +138,7 @@
             max-width: 1000px;
             margin: 0 auto;
             padding: 0 20px 0 20px;
+            box-sizing: border-box;
         }
 
         main {
@@ -140,16 +167,7 @@
     <?php include 'header.php'; ?>
     <main>
         <div class="cont">
-            <h1>Developer</h1>
-            <h2>Frontend</h2>
-            <p>As a frontend developer you would be taking care of HTML, CSS, JavaScript. You could either work on the core functionality or implement the frontend of modules. The project is not using any major JavaScript frameworks which is why talented JavaScript developers that know vanilla JS and have great ideas to implement universal solutions for many UI problems are highly welcome.</p>
-            <p>The core frontend framework tries to universally handle forms and basic UI elements in a project specific way. There is still a lot of basic functionallity that needs to be implemented (e.g. request pooling, simple form intaraction, nicer form UI elements) but besides that there are also other interesting side projects such as a charting library implementation based on D3, a markdown parser for project specific custom elements, math evaluator, table UI, and much more.</p>
-            <h2>Backend</h2>
-            <p>The backend development is not based on one of the existing frameworks and only uses a rather limited set of libraries. As a backend developer you would be responsible for implementing and maintaining core functionalities. This would also include benchmarking and improving the performance of bottlenecks. Besides these there are still a view open core elements that need to be fully implemented such as a markdown parser that also supports project specific elements, math library for financial calculations, another very big bullet point would be the implementation of multiple caching mechanisms (Memcached &amp; Radis) and last but not least the query builder and data mapper which both need to be fully implemented.</p>
-            <p>Another possibility would be to take over the backend development of a module which includes implementing all its functionality for the frontend and api including the database schema. Here you can make full use of your creativity and potentially implement features that you would like to have as a customer.</p>
-            <p>One more future playground could be the implementation of a socket in order to handle concurrency, websockets, multi-threaded tasks etc.</p>
-            <h1>Administrator</h1>
-            <p>A sophisticated build system is very important to support the development process. Setting up a build system including jenkins, unit testing, code style checking, preprocessing etc. is highly required and could be your responsibility. Not only would you be responsible for the build process but also for the deployment to the testing environment.</p>
+            <?php include realpath($path = __DIR__ . '/'. $_GET['p'] . '.php'); ?>
         </div>
     </main>
     <?php include 'footer.php'; ?>
