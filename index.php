@@ -1,4 +1,4 @@
-<?php $_GET['p'] = realpath($path = __DIR__ . '/'. $_GET['p'] . '.php') !== false ? $_GET['p'] : 'main'; ?>
+<?php $_GET['p'] = realpath($path = __DIR__ . '/'. ($_GET['p'] ?? 'main') . '.php') !== false ? $_GET['p'] ?? 'main' : 'main'; ?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -146,6 +146,21 @@
             background: #fff;
             font-size: 1.3em;
             line-height: 1.7em;
+        }
+
+        main img {
+            border: 1px solid #BFBFBF;
+            background: #fff;
+            pading: 5px;
+        }
+
+        main a {
+            color: #ffbf00;
+        }
+
+        .center {
+            margin: 0 auto;
+            text-align: center;
         }
 
         footer {
