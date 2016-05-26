@@ -58,9 +58,7 @@
             background: linear-gradient(to right, #6be004 0%,#0e5900 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6be004', endColorstr='#0e5900',GradientType=1 );
         }
-
         
-
         header {
             -webkit-box-shadow: inset 0 10px 10px -10px rgba(0,0,0,0.8);
             -moz-box-shadow: inset 0 10px 10px -10px rgba(0,0,0,0.8);
@@ -151,7 +149,7 @@
         main img {
             border: 1px solid #BFBFBF;
             background: #fff;
-            pading: 5px;
+            padding: 5px;
         }
 
         main a {
