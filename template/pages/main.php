@@ -1,6 +1,6 @@
 <h1>What is Orange Management?</h1>
 <p>Orange Management is a combination of CRM, ERP, Intranet and CMS built with custom created php and javascript
-    frameworks.</p>
+    frameworks. The underlying php and javascript framework are also used in other implementations such as the inhouse git dashboard, documentation generator, custom built financial analysis dashboards for companies.</p>
 
 <p>On top of the core system many existing modules allow for easy and comprehensive customer, supplier and company
     managment such as:</p>
@@ -17,14 +17,17 @@
     <li>many more...
 </ul>
 
-<p>Apart from specific use case modules there are also many general purpose modules:</p>
+<p>Apart from specific use case modules there are also many general purpose modules. These modules help to optimize every day tasks and processes. These modules are primarily inspired by the needs of the day to day work in companies and organizations:</p>
 
 <ul>
-    <li>Task module
+    <li>Task manager
     <li>Ticket system
     <li>Email management
     <li>Calendar
-    <li>Reporting
+    <li>Reporting generator
     <li>Charting
+    <li>Job management
+    <li>Checklists
+    <li>Worflow generator
     <li>many more...
 </ul>
