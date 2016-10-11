@@ -6,7 +6,7 @@
     <div id="logo-name">Orange Management</div>
     <nav>
         <ul>
-            <li class="<?= $_GET['p'] === 'main' ? 'active' : ''; ?>"><a href="?p=main">MAIN</a><li class="<?= $_GET['p'] === 'code' ? 'active' : ''; ?>"><a href="http://git.orange-management.de/">GIT</a><li class="<?= $_GET['p'] === 'positions' ? 'active' : ''; ?>"><a href="?p=positions">POSITIONS</a><li class="<?= $_GET['p'] === 'live' ? 'active' : ''; ?>"><a href="http://docs.orange-management.de/" target="_blank">DOCS</a><li class="<?= $_GET['p'] === 'demo' ? 'active' : ''; ?>"><a href="http://oms.orange-management.de/en/backend" target="_blank">DEMO</a>
+            <li class="<?= $_GET['p'] === 'main' ? 'active' : ''; ?>"><a href="?p=main">MAIN</a><li class="<?= $_GET['p'] === 'code' ? 'active' : ''; ?>"><a href="http://git.orange-management.de/" target="_blank">GIT</a><li class="<?= $_GET['p'] === 'positions' ? 'active' : ''; ?>"><a href="?p=positions">POSITIONS</a><li class="<?= $_GET['p'] === 'live' ? 'active' : ''; ?>"><a href="http://docs.orange-management.de/" target="_blank">DOCS</a><li class="<?= $_GET['p'] === 'demo' ? 'active' : ''; ?>"><a href="http://oms.orange-management.de/en/backend" target="_blank">DEMO</a>
         </ul>
     </nav>
 </div>
