@@ -1,0 +1,25 @@
+#main-nav ul, #main-nav li {
+    display: block;
+}
+
+#main-nav h2 {
+    margin: 15px 0 7px 0;
+    padding-bottom: 5px;
+    color: #ffa200;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.1rem;
+}
+
+#main-nav h1 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: #ffa200;
+    font-size: 1.3rem;
+}
+
+#main-nav a {
+    font-size: .9em;
+    margin: 5px 0 5px 10px;
+    display: block;
+}
