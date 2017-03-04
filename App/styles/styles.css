@@ -148,6 +148,10 @@ main > section > div {
   margin: 10px 0 10px 0;
 }
 
+.content a {
+    color: #ffa200;
+}
+
 .content ul li, .content ol li {
     display: list-item;
     margin: 5px 0 5px 40px;

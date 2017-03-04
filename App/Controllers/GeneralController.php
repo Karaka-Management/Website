@@ -8,6 +8,7 @@ use phpOMS\Message\ResponseAbstract;
 use phpOMS\Views\View;
 use phpOMS\System\File\Local\Directory;
 use phpOMS\Module\InfoManager;
+use phpOMS\Utils\StringUtils;
 
 include_once __DIR__ . '/../../libs/parsedown/Parsedown.php';
 
@@ -61,37 +62,41 @@ class GeneralController
         return $view;
     }
 
-    public function showProductList(RequestAbstract $request, ResponseAbstract $response)
+    public function showModuleList(RequestAbstract $request, ResponseAbstract $response)
     {
         $view = new View($this->app, $request, $response);
-        $view->setTemplate('/Website/App/Templates/Page/products');
+        $view->setTemplate('/Website/App/Templates/Page/modules');
 
         $view->setData('modules', $this->getModules());
 
         return $view;
     }
 
-    public function showProduct(RequestAbstract $request, ResponseAbstract $response)
+    public function showModule(RequestAbstract $request, ResponseAbstract $response)
     {
         $view = new View($this->app, $request, $response);
-        $view->setTemplate('/Website/App/Templates/Page/product-profile');
+        $view->setTemplate('/Website/App/Templates/Page/module-profile');
 
         $view->setData('modules', $this->getModules());
 
         $module = null;
-        $doc = '';
+        $docs = [];
 
         if(file_exists(__DIR__. '/../../../Modules/' . $request->getPath(1) . '/info.json')) {
             $module = new InfoManager(__DIR__. '/../../../Modules/' . $request->getPath(1) . '/info.json');
+            $list = Directory::list(__DIR__. '/../../../Modules/' . $request->getPath(1) . '/Docs');
 
-            if(file_exists(__DIR__. '/../../../Modules/' . $request->getPath(1) . '/Docs/test.md')) {
-                $Parsedown = new \Parsedown();
-                $doc = $Parsedown->text(file_get_contents(__DIR__. '/../../../Modules/' . $request->getPath(1) . '/Docs/test.md'));
+            $Parsedown = new \Parsedown();
+
+            foreach($list as $doc) {
+                if(StringUtils::endsWith($doc, '.md')) {
+                    $docs[] = $Parsedown->text(file_get_contents($doc));
+                }
             }
         }
 
         $view->setData('module', $module);
-        $view->setData('doc', $doc);
+        $view->setData('docs', $docs);
 
         return $view;
     }
@@ -122,9 +127,9 @@ class GeneralController
             $doc = file_get_contents(__DIR__ . '/../../../Documentation/' . $path . '.md');
         }
         
-        $Parsedown = new \Parsedown();
+        $parsedown = new \Parsedown();
 
-        $view->setData('doc', $Parsedown->text($doc));
+        $view->setData('doc', $parsedown->text($doc));
 
         return $view;
     }
@@ -132,7 +137,38 @@ class GeneralController
     public function showBlog(RequestAbstract $request, ResponseAbstract $response)
     {
         $view = new View($this->app, $request, $response);
-        $view->setTemplate('/Website/App/Templates/Page/front');
+        $view->setTemplate('/Website/App/Templates/Page/blog');
+
+        $posts = Directory::list(__DIR__ . '/../Templates/Page/blog');
+
+        $view->setData('posts', $posts);
+
+        return $view;
+    }
+
+    public function showBlogPost(RequestAbstract $request, ResponseAbstract $response)
+    {
+        $view = new View($this->app, $request, $response);
+        $view->setTemplate('/Website/App/Templates/Page/blog-post');
+
+        $path = __DIR__ . '/../Templates/Page/blog/' . urldecode($request->getPath(1)) . '.md';
+
+        $parsedown = new \Parsedown();
+        $text = '';
+
+        if(file_exists($path)) {
+            $text = $parsedown->text(file_get_contents($path));
+        }
+
+        $view->setData('post', $text);
+
+        return $view;
+    }
+
+    public function showPlans(RequestAbstract $request, ResponseAbstract $response)
+    {
+        $view = new View($this->app, $request, $response);
+        $view->setTemplate('/Website/App/Templates/Page/plans');
 
         return $view;
     }
@@ -140,7 +176,7 @@ class GeneralController
     public function showAbout(RequestAbstract $request, ResponseAbstract $response)
     {
         $view = new View($this->app, $request, $response);
-        $view->setTemplate('/Website/App/Templates/Page/front');
+        $view->setTemplate('/Website/App/Templates/Page/about');
 
         return $view;
     }
@@ -148,7 +184,7 @@ class GeneralController
     public function showTerms(RequestAbstract $request, ResponseAbstract $response)
     {
         $view = new View($this->app, $request, $response);
-        $view->setTemplate('/Website/App/Templates/Page/front');
+        $view->setTemplate('/Website/App/Templates/Page/terms');
 
         return $view;
     }
@@ -156,7 +192,7 @@ class GeneralController
     public function showPrivacy(RequestAbstract $request, ResponseAbstract $response)
     {
         $view = new View($this->app, $request, $response);
-        $view->setTemplate('/Website/App/Templates/Page/front');
+        $view->setTemplate('/Website/App/Templates/Page/privacy');
 
         return $view;
     }
@@ -164,7 +200,7 @@ class GeneralController
     public function showContact(RequestAbstract $request, ResponseAbstract $response)
     {
         $view = new View($this->app, $request, $response);
-        $view->setTemplate('/Website/App/Templates/Page/front');
+        $view->setTemplate('/Website/App/Templates/Page/contact');
 
         return $view;
     }

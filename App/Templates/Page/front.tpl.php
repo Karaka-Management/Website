@@ -11,7 +11,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-6"><a target="_blank" href="http://oms.orange-management.de/en/backend">Try Demo</a></div>
-					<div class="col-xs-6"><a href="">Products & Prices</a></div>
+					<div class="col-xs-6"><a href="/plans">Products & Prices</a></div>
 				</div>
 			</div>
 		</div>
@@ -31,7 +31,7 @@
 				<div class="main-block col-xs-12 col-md-6">
 					<h1>Encourage change</h1>
 					<p>New as well as established workflows and tools help to improve the communication and not only increase the efficiency but also improve reliability. Choose the modules best suited for your business and built your own software sollution according to your company needs.</p>
-					<a href="">Browse modules</a>
+					<a href="/module">Browse modules</a>
 				</div>
 				<div class="main-block col-xs-12 col-md-6">
 					<div class="row">
@@ -70,7 +70,7 @@
 				<div class="main-block col-xs-12 col-md-6">
 					<h1>Hosting is decided by you</h1>
 					<p>Many companies prefere to host software on their own servers, others on the other hand gladly let the software vendor do the hosting. What ever your decission is, we support you.</p>
-					<a href="">Compare plans</a>
+					<a href="/plans">Compare plans</a>
 				</div>
 				<div class="main-block col-xs-12 col-md-6">
 					<table>
@@ -151,7 +151,7 @@
 				<div class="main-block col-xs-12 col-md-6">
 					<h1>Additional features</h1>
 					<p>In addition to the functionality all the modules bring to the table additional features must be provided by every module. These modern features in combination with our modules make our application so great.</p>
-					<a href="">Learn about our features</a>
+					<a href="/features">Learn about our features</a>
 				</div>
 			</div>
 		</div>

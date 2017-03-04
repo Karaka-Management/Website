@@ -1,8 +1,4 @@
-<?php 
-$modules = $this->getData('modules'); 
-$module = $this->getData('module'); 
-$doc = $this->getData('doc'); 
-?>
+<?php $modules = $this->getData('modules'); ?>
 <main>
 	<section class="spacer">
 		<div class="row">
@@ -12,14 +8,15 @@ $doc = $this->getData('doc');
                         <?php foreach($modules as $category => $categoryList) : ?>
                             <li><h1><?= $category; ?></h1>
                             <?php foreach($categoryList as $module) : ?>
-                                <li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/product/'. $module->getDirectory()); ?>"><?= $module->getExternalName(); ?></a>
+                                <li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/module/'. $module->getDirectory()); ?>"><?= $module->getExternalName(); ?></a>
                             <?php endforeach; ?>
                         <?php endforeach; ?>
                     </ul>
                 </nav>
             </div>
-            <div class="col-xs-10 content">
-                <?= $doc; ?>
+            <div class="col-xs-10" style="text-align: center">
+                <div><i class="fa fa-cogs" style="font-size: 20rem; color: #ccc"></i></div>
+                <div style="font-size: 4rem;">In development</div>
             </div>
         </div>
     </section>

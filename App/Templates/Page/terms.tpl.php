@@ -1,0 +1,26 @@
+<main>
+	<section class="spacer">
+        <div class="content">
+            <h1>Terms of Service</h1>
+            <p>By using the Orange-Management.com web site ("Service"), or any software of Orange Management, you are agreeing to be bound by the following terms and conditions ("Terms of Service"). IF YOU ARE ENTERING INTO THIS AGREEMENT ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY, YOU REPRESENT THAT YOU HAVE THE AUTHORITY TO BIND SUCH ENTITY, ITS AFFILIATES AND ALL USERS WHO ACCESS OUR SERVICES THROUGH YOUR ACCOUNT TO THESE TERMS AND CONDITIONS, IN WHICH CASE THE TERMS "YOU" OR "YOUR" SHALL REFER TO SUCH ENTITY, ITS AFFILIATES AND USERS ASSOCIATED WITH IT. IF YOU DO NOT HAVE SUCH AUTHORITY, OR IF YOU DO NOT AGREE WITH THESE TERMS AND CONDITIONS, YOU MUST NOT ACCEPT THIS AGREEMENT AND MAY NOT USE THE SERVICES.</p>
+
+            <p>You agree to use the Service and Software at your own risk.</p>
+            <h2>General Conditions</h2>
+            <ul>
+                <li>Your use of the Service and Software is at your sole risk. The service and software is provided on an "as is" and "as available" basis.
+                <li>Support is only available in English, via email.
+                <li>You understand that Orange Management uses third-party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and related technology required to run the Service and Software.
+                <li>You must not modify, adapt or hack the Service or Software or modify another website so as to falsely imply that it is associated with the Service and Software, Orange Management provides.
+                <li>You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service and Software, use of the Service and Software, or access to the Service or Software without the express written permission by Orange Management.
+                <li>We may, but have no obligation to, remove Content and Accounts containing Content that we determine in our sole discretion are unlawful, offensive, threatening, libelous, defamatory, pornographic, obscene or otherwise objectionable or violates any party's intellectual property or these Terms of Service.
+                <li>You understand that the technical processing and transmission of the Service and Service, may be transferred unencrypted and involve (a) transmissions over various networks; and (b) changes to conform and adapt to technical requirements of connecting networks or devices.
+                <li>You must not transmit any worms or viruses or any code of a destructive nature.
+                <li>If your bandwidth usage significantly exceeds the average bandwidth usage (as determined solely by Orange Management) of other Orange Management customers, we reserve the right to immediately disable your account or throttle your file access until you can reduce your bandwidth consumption.
+                <li>Orange Management does not warrant that (i) the service or software will meet your specific requirements, (ii) the service or software will be uninterrupted, timely, secure, or error-free, (iii) the results that may be obtained from the use of the service or software will be accurate or reliable, (iv) the quality of any products, services, information, or other material purchased or obtained by you through the service or software will meet your expectations, and (v) any errors in the Service or Software will be corrected.
+                <li>You expressly understand and agree that Orange Management shall not be liable for any direct, indirect, incidental, special, consequential or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data or other intangible losses (even if <li>Orange Management has been advised of the possibility of such damages), resulting from: (i) the use or the inability to use the service or software; (ii) the cost of procurement of substitute goods, services and software resulting from any goods, data, information, services or software purchased or obtained or messages received or transactions entered into through or from the service or software; (iii) unauthorized access to or alteration of your transmissions or data; (iv) statements or conduct of any third-party on the service and software; (v) or any other matter relating to the service and software.
+                <li>The failure of Orange Management to exercise or enforce any right or provision of the Terms of Service shall not constitute a waiver of such right or provision. The Terms of Service constitute the entire agreement between you and Orange Management and govern your use of the Service and Software, superseding any prior agreements between you and Orange Management (including, but not limited to, any prior versions of the Terms of Service). You agree that these Terms of Service and Your use of the Service and Software are governed under German law.
+                <li>If you are a government user or otherwise accessing or using any Orange Management service or software in a government capacity, this Amendment to Orange Management Terms of Service shall apply to you.
+            </ul>
+        </div>
+    </section>
+</main>

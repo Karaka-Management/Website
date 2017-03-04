@@ -9,15 +9,15 @@ return [
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^product$' => [
+    '^module$' => [
         [
-            'dest' => 'Website\App\Controllers\GeneralController:showProductList',
+            'dest' => 'Website\App\Controllers\GeneralController:showModuleList',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^product/.*$' => [
+    '^module/.*$' => [
         [
-            'dest' => 'Website\App\Controllers\GeneralController:showProduct',
+            'dest' => 'Website\App\Controllers\GeneralController:showModule',
             'verb' => RouteVerb::GET,
         ],
     ],
@@ -36,6 +36,18 @@ return [
     '^blog$' => [
         [
             'dest' => 'Website\App\Controllers\GeneralController:showBlog',
+            'verb' => RouteVerb::GET,
+        ],
+    ],
+    '^blog/.*$' => [
+        [
+            'dest' => 'Website\App\Controllers\GeneralController:showBlogPost',
+            'verb' => RouteVerb::GET,
+        ],
+    ],
+    '^plans$' => [
+        [
+            'dest' => 'Website\App\Controllers\GeneralController:showPlans',
             'verb' => RouteVerb::GET,
         ],
     ],
