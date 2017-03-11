@@ -165,6 +165,14 @@ class GeneralController
         return $view;
     }
 
+    public function showDev(RequestAbstract $request, ResponseAbstract $response)
+    {
+        $view = new View($this->app, $request, $response);
+        $view->setTemplate('/Website/App/Templates/Page/dev');
+
+        return $view;
+    }
+
     public function showPlans(RequestAbstract $request, ResponseAbstract $response)
     {
         $view = new View($this->app, $request, $response);

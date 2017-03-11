@@ -45,6 +45,12 @@ return [
             'verb' => RouteVerb::GET,
         ],
     ],
+    '^dev$' => [
+        [
+            'dest' => 'Website\App\Controllers\GeneralController:showDev',
+            'verb' => RouteVerb::GET,
+        ],
+    ],
     '^plans$' => [
         [
             'dest' => 'Website\App\Controllers\GeneralController:showPlans',
