@@ -140,6 +140,7 @@ class GeneralController
         $view->setTemplate('/Website/App/Templates/Page/blog');
 
         $posts = Directory::list(__DIR__ . '/../Templates/Page/blog');
+        rsort($posts);
 
         $view->setData('posts', $posts);
 
