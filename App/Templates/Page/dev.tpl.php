@@ -44,10 +44,10 @@
         <h2>Modules Pdepend</h2>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
-                <img src="http://orange-management.de/Inspection/Framework/pdepend/chart.svg">
+                <img src="http://orange-management.de/Inspection/Modules/pdepend/chart.svg">
             </div>
             <div class="col-xs-12 col-sm-6">
-                <img src="http://orange-management.de/Inspection/Framework/pdepend/pyramid.svg">
+                <img src="http://orange-management.de/Inspection/Modules/pdepend/pyramid.svg">
             </div>
         </div>
         <div class="row">
