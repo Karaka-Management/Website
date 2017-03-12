@@ -37,7 +37,6 @@ class Application extends ApplicationAbstract
         $response = new Response(new Localization());
         $response->getL11n()->setLanguage('en');
         $request->getL11n()->setLanguage('en');
-        $request->init();
         $request->getUri()->setRootPath($this->config['page']['root']);
         
         UriFactory::setupUriBuilder($request->getUri());
