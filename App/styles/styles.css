@@ -169,7 +169,7 @@ code {
   padding: 1px 5px 1px 5px;
 }
 
-pre+code {
+pre code {
   display: block;
   overflow-x: auto;
 }
