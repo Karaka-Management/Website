@@ -169,6 +169,19 @@ code {
   padding: 1px 5px 1px 5px;
 }
 
+pre+code {
+  display: block;
+  overflow-x: auto;
+}
+
+blockquote {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    display: block;
+    overflow-x: auto;
+    padding: 5px;
+}
+
 footer {
     color: #ccc;
     padding: 20px 0 20px 0;
