@@ -4,7 +4,7 @@ Whenever you want to implement some slightly extended UI behavior and dynamic ch
 
 With the UI action manager it's possible to create and define __actions__ on a lower level. Actions can be used in components or directly in the application. Think of actions as single LEGO bricks and components as a LEGO set consiting of many different bricks. While you can use the bricks to build components it's also possible to directly use them for whatever you want. This allows for easier/faster component building and direct use in the application without creating a full component. 
 
-The actions simply need to be defined in the dom for the element you want to define a new behavior. The following example creates a popup after clicking on a button from a template defined in the application, performs a HTTP request and pushes the HTTP result into a table.
+The actions simply need to be defined in the DOM for the element you want to define a new behavior. The following example creates a popup after clicking on a button from a template defined in the application, performs a HTTP request and pushes the HTTP result into a table.
 
 ```
 <button type="button" data-action='[
@@ -34,8 +34,16 @@ The next example creates a autocomplete based on web-server provided data. A tim
 <datalist id="iReceiver-datalist"></datalist>
 ```
 
-New actions can be easily defined and loaded which allows to customize and extend the possibilities. Not a single line of additional JS is required after defining the actions. The difference to components is that these actions are as already described on a lower level, are much more flexible and easier to implement since all that needs to be added is a `data-action` attribute with the listeners and actions. 
+New actions can be easily defined and loaded which allows to customize and extend the functionality:
+
+```
+this.uiManager.getActionManager().add('dom.popup', popupButtonAction);
+```
+
+Not a single line of additional JS is required after defining the actions. The difference to components is that these actions are on a lower level, are much more flexible since all that needs to be added/changed is a `data-action` attribute with the listeners and actions. 
 
 While this is not coverd in these examples it's also possible to add multiple listeners for different behavior depending on the listener.
 
-> The URIs defined here in both examples are parsed by a `UriFactory` (the first one server side and the second one client side) which allows to dynamically create URLs (e.g. parse data/values of input fields into the request URL before performing the request).
+> The URIs defined here in both examples are parsed by a `UriFactory` (the first server side and the second client side) which allows to dynamically create URLs (e.g. parse data/values of input fields into the request URL before performing the request).
+
+The next step is to create components based on these actions for more complex behavior and concepts that are used very frequently in a web app.
