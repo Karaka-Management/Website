@@ -142,6 +142,12 @@ class GeneralController
         $posts = Directory::list(__DIR__ . '/../Templates/Page/blog');
         rsort($posts);
 
+        foreach($posts as $key => $post) {
+            if(is_dir($post)) {
+                unset($posts[$key]);
+            }
+        }
+
         $view->setData('posts', $posts);
 
         return $view;
