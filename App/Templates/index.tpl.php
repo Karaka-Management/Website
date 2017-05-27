@@ -19,6 +19,7 @@
 		<ul id="secondary-nav" class="center-xs">
 			<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/module'); ?>">Modules</a>
 			<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/docs'); ?>">Docs</a>
+			<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/devguide'); ?>">DevGuide</a>
 			<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/blog'); ?>">Blog</a>
 			<li><a target="_blank" href="http://oms.orange-management.de/en/backend">Demo</a>
 			<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/dev'); ?>">Dev</a>

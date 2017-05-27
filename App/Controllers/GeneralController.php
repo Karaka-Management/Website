@@ -31,6 +31,16 @@ class GeneralController
         return $Parsedown->text($docNav);
     }
 
+    private function getDevGuideNav()
+    {
+        $docNav = file_get_contents(__DIR__ . '/../../../Developer-Guide/SUMMARY.md');
+        $docNav = str_replace('.md', '', $docNav);
+        $docNav = str_replace('](', '](/devguide/', $docNav);
+
+        $Parsedown = new \Parsedown();
+        return $Parsedown->text($docNav);
+    }
+
     private function getModules()
     {
         $modules = [];
@@ -125,6 +135,39 @@ class GeneralController
         
         if(file_exists(__DIR__ . '/../../../Documentation/' . $path . '.md')) {
             $doc = file_get_contents(__DIR__ . '/../../../Documentation/' . $path . '.md');
+        }
+        
+        $parsedown = new \Parsedown();
+
+        $view->setData('doc', $parsedown->text($doc));
+
+        return $view;
+    }
+
+    public function showDevGuideList(RequestAbstract $request, ResponseAbstract $response)
+    {
+        $view = new View($this->app, $request, $response);
+        $view->setTemplate('/Website/App/Templates/Page/devguide');
+
+        $view->setData('customer-nav', $this->getDevGuideNav());
+
+        return $view;
+    }
+
+    public function showDevGuideArticle(RequestAbstract $request, ResponseAbstract $response)
+    {
+        $view = new View($this->app, $request, $response);
+        $view->setTemplate('/Website/App/Templates/Page/docs-article');
+
+        $view->setData('customer-nav', $this->getDevGuideNav());
+
+        $path = $request->getUri()->getPath();
+        $path = str_replace('devguide', '', $path);
+
+        $doc = '';
+        
+        if(file_exists(__DIR__ . '/../../../Developer-Guide/' . $path . '.md')) {
+            $doc = file_get_contents(__DIR__ . '/../../../Developer-Guide/' . $path . '.md');
         }
         
         $parsedown = new \Parsedown();
