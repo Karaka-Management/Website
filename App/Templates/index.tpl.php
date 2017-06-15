@@ -40,6 +40,7 @@ foreach ($dispatch as $view) {
 		<div class="col-xs-4">© Orange Management</div>
 		<div class="col-xs-8 end-xs">
 			<ul>
+				<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/coc'); ?>">CoC</a>
 				<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/terms'); ?>">Terms</a>
 				<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/privacy'); ?>">Privacy</a>
 				<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/contact'); ?>">Contact</a>

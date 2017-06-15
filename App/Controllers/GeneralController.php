@@ -247,6 +247,14 @@ class GeneralController
         return $view;
     }
 
+    public function showCoC(RequestAbstract $request, ResponseAbstract $response)
+    {
+        $view = new View($this->app, $request, $response);
+        $view->setTemplate('/Website/App/Templates/Page/code-of-conduct');
+
+        return $view;
+    }
+
     public function showPrivacy(RequestAbstract $request, ResponseAbstract $response)
     {
         $view = new View($this->app, $request, $response);

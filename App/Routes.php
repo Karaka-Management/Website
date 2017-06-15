@@ -75,6 +75,12 @@ return [
             'verb' => RouteVerb::GET,
         ],
     ],
+    '^coc$' => [
+        [
+            'dest' => 'Website\App\Controllers\GeneralController:showCoC',
+            'verb' => RouteVerb::GET,
+        ],
+    ],
     '^terms$' => [
         [
             'dest' => 'Website\App\Controllers\GeneralController:showTerms',
