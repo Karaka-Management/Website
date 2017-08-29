@@ -55,7 +55,9 @@
 						<tr><td><i class="fa fa-check"></i> Mobile<td><i class="fa fa-check"></i> Web API
 						<tr><td><i class="fa fa-check"></i> Web<td><i class="fa fa-check"></i> DI/EDI
 						<tr><td><i class="fa fa-check"></i> Intranet<td><i class="fa fa-check"></i> Custom Interface & Wrappers
-						<tr><td><td><i class="fa fa-check"></i> Excel, PDF, CSV
+						<tr><td><i class="fa fa-check"></i> Offline<td><i class="fa fa-check"></i> Excel, PDF, CSV, Word, Powerpoint
+						<tr><td><i class="fa fa-check"></i> Console<td>
+						<tr><td><i class="fa fa-check"></i> Socket<td>
 					</table>
 				</div>
 				<div class="main-block col-xs-12 col-md-6">
@@ -118,7 +120,7 @@
 					<h1>Security</h1>
 					<div class="main-block">
 						<h2>Audit Log</h2>
-						<p>Track user activities for auditing purposes. Tracking down malicious activities become easy.</p>
+						<p>Track user activities, content and software changes for auditing purposes.</p>
 					</div>
 					<div class="main-block">
 						<h2>Access control</h2>
@@ -134,7 +136,7 @@
 					</div>
 					<div class="main-block">
 						<h2>Updates</h2>
-						<p>Updates can be automated for security critical fixes.</p>
+						<p>Updates can be automated for security critical fixes. All updates are signed to provent malicious code injection.</p>
 					</div>
 				</div>
 			</div>
@@ -144,8 +146,9 @@
 				<div class="main-block col-xs-12 col-md-6">
 					<table>
 						<tr><td><i class="fa fa-check"></i> WAI-ARIA<td><i class="fa fa-check"></i> Microdata<td><i class="fa fa-check"></i> Open Graph
-						<tr><td><i class="fa fa-check"></i> Localization<td><i class="fa fa-check"></i> Speech Navigation<td><i class="fa fa-check"></i> SEO
-						<tr><td><i class="fa fa-check"></i> Fast<td><i class="fa fa-check"></i> Extendable<td><i class="fa fa-check"></i> Affordable
+						<tr><td><i class="fa fa-check"></i> Localization<td><i class="fa fa-check"></i> Speech Recognition<td><i class="fa fa-check"></i> SEO
+						<tr><td><i class="fa fa-check"></i> GeoLocation<td><i class="fa fa-check"></i> Bug Reports<td><i class="fa fa-check"></i> Fast
+						<tr><td><i class="fa fa-check"></i> Customizable<td><i class="fa fa-check"></i> Extendable<td><i class="fa fa-check"></i> Affordable
 					</table>
 				</div>
 				<div class="main-block col-xs-12 col-md-6">
