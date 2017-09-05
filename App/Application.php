@@ -67,7 +67,7 @@ class Application extends ApplicationAbstract
         if (empty($dispatched)) {
             $dispatched[] = new View($this, $request, $response);
             $dispatched[0]->setTemplate('/Website/App/Templates/Page/error');
-            $response->setStatusCode(RequestStatusCode::R_404);
+            $response->getHeader()->setStatusCode(RequestStatusCode::R_404);
         }
 
         $pageView = new View($this, $request, $response);
