@@ -35,8 +35,8 @@ class Application extends ApplicationAbstract
 
         $request  = new Request(new Localization());
         $response = new Response(new Localization());
-        $response->getL11n()->setLanguage('en');
-        $request->getL11n()->setLanguage('en');
+        $response->getHeader()->getL11n()->setLanguage('en');
+        $request->getHeader()->getL11n()->setLanguage('en');
         $request->getUri()->setRootPath($this->config['page']['root']);
         
         UriFactory::setupUriBuilder($request->getUri());
@@ -67,7 +67,7 @@ class Application extends ApplicationAbstract
         if (empty($dispatched)) {
             $dispatched[] = new View($this, $request, $response);
             $dispatched[0]->setTemplate('/Website/App/Templates/Page/error');
-            $response->setStatusCode(RequestStatus::R_404);
+            $response->setStatusCode(RequestStatusCode::R_404);
         }
 
         $pageView = new View($this, $request, $response);
