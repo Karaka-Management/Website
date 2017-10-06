@@ -7,7 +7,7 @@ use phpOMS\DataStorage\Database\DatabaseStatus;
 use phpOMS\Dispatcher\Dispatcher;
 use phpOMS\Localization\Localization;
 use phpOMS\Message\Http\Request;
-use phpOMS\Message\Http\RequestStatus;
+use phpOMS\Message\Http\RequestStatusCode;
 use phpOMS\Message\Http\Response;
 use phpOMS\Model\Html\Head;
 use phpOMS\Router\Router;
