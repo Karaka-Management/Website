@@ -201,7 +201,7 @@ class GeneralController
         $view = new View($this->app, $request, $response);
         $view->setTemplate('/Website/App/Templates/Page/blog-post');
 
-        $path = __DIR__ . '/../Templates/Page/blog/' . urldecode($request->getPath(1)) . '.md';
+        $path = __DIR__ . '/../Templates/Page/blog/' . urldecode($request->getUri()->getPathElement(1)) . '.md';
 
         $parsedown = new \Parsedown();
         $text = '';
