@@ -92,9 +92,9 @@ class GeneralController
         $module = null;
         $docs = [];
 
-        if(file_exists(__DIR__. '/../../../Modules/' . $request->getPath(1) . '/info.json')) {
-            $module = new InfoManager(__DIR__. '/../../../Modules/' . $request->getPath(1) . '/info.json');
-            $list = Directory::list(__DIR__. '/../../../Modules/' . $request->getPath(1) . '/Docs');
+        if(file_exists(__DIR__. '/../../../Modules/' . $request->getUri()->getPathElement(1) . '/info.json')) {
+            $module = new InfoManager(__DIR__. '/../../../Modules/' . $request->getUri()->getPathElement(1) . '/info.json');
+            $list = Directory::list(__DIR__. '/../../../Modules/' . $request->getUri()->getPathElement(1) . '/Docs');
 
             $Parsedown = new \Parsedown();
 
