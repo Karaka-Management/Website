@@ -33,7 +33,7 @@ class Application extends ApplicationAbstract
         mb_internal_encoding('UTF-8');
         date_default_timezone_set('Europe/Berlin');
 
-        $request  = new Request(new Localization());
+        $request  = new Request();
         $response = new Response(new Localization());
         $response->getHeader()->getL11n()->setLanguage('en');
         $request->getHeader()->getL11n()->setLanguage('en');
