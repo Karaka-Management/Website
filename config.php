@@ -3,7 +3,7 @@
 define('ROOT_PATH', __DIR__);
 
 $CONFIG = [
-	'page'     => [
+    'page'     => [
         'root'  => '/',
         'https' => false,
     ],
