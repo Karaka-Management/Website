@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
+<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="/App/styles/styles.css">
 	<link rel="stylesheet" type="text/css" href="/App/styles/front.css">
 	<link rel="stylesheet" type="text/css" href="/App/styles/main.css">
 	<link rel="stylesheet" type="text/css" href="/libs/fontawesome/css/font-awesome.min.css">
+	<title>Orange-Management</title>
 </head>
 <body>
 <nav>
 	<div class="spacer row middle-xs">
-		<span id="nav-logo" class="center-xs"><img src="/App/img/logo.png"></span>
+		<span id="nav-logo" class="center-xs"><img alt="Logo" src="/App/img/logo.png"></span>
 		<ul id="main-nav" class="center-xs">
 			<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}'); ?>">Orange Management</a>
 		</ul>
