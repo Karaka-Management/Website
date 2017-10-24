@@ -46,6 +46,7 @@ foreach ($dispatch as $view) {
 				<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/privacy'); ?>">Privacy</a>
 				<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/contact'); ?>">Contact</a>
 				<li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/about'); ?>">About</a>
+			</ul>
 		</div>
 	</div>
 </footer>
