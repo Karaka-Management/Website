@@ -16,7 +16,7 @@
 			</div>
 		</div>
 		<div id="header-image" class="col-xs-12 col-md-6 last-xs first-md center-xs">
-			<img src="App/img/disc-business.png">
+			<img alt="Product Portfolio" src="App/img/disc-business.png">
 		</div>
 	</div>
 </header>
@@ -42,7 +42,7 @@
 					<div class="row">
 						<div class="col-xs-4 center-xs">Decide to Change</div>
 						<div class="col-xs-4 center-xs">Implement Change</div>
-						<div class="col-xs-4 center-xs">Success</i></div>
+						<div class="col-xs-4 center-xs">Success</div>
 					</div>
 				</div>
 			</div>
