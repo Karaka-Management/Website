@@ -3,7 +3,7 @@
 		<div id="header-text" class="col-xs-12 col-md-6 center-xs">
 			<h7>Currently in Development (PRE-ALPHA)</h7>
 			<h1>Upgrade your Workflow</h1>
-			<p>Comprehensive software solutions out of one hand for your <nobr>day-to-day</nobr> business operations.</p>
+			<p>Comprehensive software solutions out of one hand for your daily business operations.</p>
 			<div id="header-button">
 				<div class="row">
 					<div class="col-xs-6"><i class="fa fa-lock"></i> Private AND Public</div>
