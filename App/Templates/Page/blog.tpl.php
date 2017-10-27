@@ -7,7 +7,7 @@ $posts = $this->getData('posts');
         <div class="content">
             <h1>Blog</h1>
             <ul>
-<?php foreach($posts as $post) :
+<?php foreach ($posts as $post) :
     $post = str_replace('\\', '/', $post);
     $post = explode('/', $post);
     $linkName = substr(end($post), 0, -3);

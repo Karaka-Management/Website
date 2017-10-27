@@ -46,12 +46,12 @@ class GeneralController
         $modules = [];
         $mDirs = Directory::list(__DIR__ . '/../../../Modules');
 
-        foreach($mDirs as $dir) {
-            if(is_dir($dir) && file_exists($dir . '/info.json')) {
+        foreach ($mDirs as $dir) {
+            if (is_dir($dir) && file_exists($dir . '/info.json')) {
                 $module = new InfoManager($dir . '/info.json');
                 $module->load();
 
-                if(!isset($modules[$module->getCategory()])) {
+                if (!isset($modules[$module->getCategory()])) {
                     $modules[$module->getCategory()] = [];
                 }
 
@@ -92,14 +92,14 @@ class GeneralController
         $module = null;
         $docs = [];
 
-        if(file_exists(__DIR__. '/../../../Modules/' . $request->getUri()->getPathElement(1) . '/info.json')) {
+        if (file_exists(__DIR__. '/../../../Modules/' . $request->getUri()->getPathElement(1) . '/info.json')) {
             $module = new InfoManager(__DIR__. '/../../../Modules/' . $request->getUri()->getPathElement(1) . '/info.json');
             $list = Directory::list(__DIR__. '/../../../Modules/' . $request->getUri()->getPathElement(1) . '/Docs');
 
             $Parsedown = new \Parsedown();
 
-            foreach($list as $doc) {
-                if(StringUtils::endsWith($doc, '.md')) {
+            foreach ($list as $doc) {
+                if (StringUtils::endsWith($doc, '.md')) {
                     $docs[] = $Parsedown->text(file_get_contents($doc));
                 }
             }
@@ -133,7 +133,7 @@ class GeneralController
 
         $doc = '';
         
-        if(file_exists(__DIR__ . '/../../../Documentation/' . $path . '.md')) {
+        if (file_exists(__DIR__ . '/../../../Documentation/' . $path . '.md')) {
             $doc = file_get_contents(__DIR__ . '/../../../Documentation/' . $path . '.md');
         }
         
@@ -166,7 +166,7 @@ class GeneralController
 
         $doc = '';
         
-        if(file_exists(__DIR__ . '/../../../Developer-Guide/' . $path . '.md')) {
+        if (file_exists(__DIR__ . '/../../../Developer-Guide/' . $path . '.md')) {
             $doc = file_get_contents(__DIR__ . '/../../../Developer-Guide/' . $path . '.md');
         }
         
@@ -185,8 +185,8 @@ class GeneralController
         $posts = Directory::list(__DIR__ . '/../Templates/Page/blog');
         rsort($posts);
 
-        foreach($posts as $key => $post) {
-            if(is_dir($post)) {
+        foreach ($posts as $key => $post) {
+            if (is_dir($post)) {
                 unset($posts[$key]);
             }
         }
@@ -206,7 +206,7 @@ class GeneralController
         $parsedown = new \Parsedown();
         $text = '';
 
-        if(file_exists($path)) {
+        if (file_exists($path)) {
             $text = $parsedown->text(file_get_contents($path));
         }
 

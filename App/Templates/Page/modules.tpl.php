@@ -5,9 +5,9 @@
             <div class="col-xs-2">
                 <nav id="main-nav">
                     <ul>
-                        <?php foreach($modules as $category => $categoryList) : ?>
+                        <?php foreach ($modules as $category => $categoryList) : ?>
                             <li><h1><?= $category; ?></h1>
-                            <?php foreach($categoryList as $module) : ?>
+                            <?php foreach ($categoryList as $module) : ?>
                                 <li><a href="<?= \phpOMS\Uri\UriFactory::build('{/base}/module/'. $module->getDirectory()); ?>"><?= $module->getExternalName(); ?></a>
                             <?php endforeach; ?>
                         <?php endforeach; ?>
