@@ -56,7 +56,7 @@
 						<tr><td><i class="fa fa-check"></i> Web<td><i class="fa fa-check"></i> DI/EDI
 						<tr><td><i class="fa fa-check"></i> Intranet<td><i class="fa fa-check"></i> Custom Interface & Wrappers
 						<tr><td><i class="fa fa-check"></i> Offline<td><i class="fa fa-check"></i> Excel, PDF, CSV, Word, Powerpoint
-						<tr><td><i class="fa fa-check"></i> Console<td>
+						<tr><td><i class="fa fa-check"></i> Console<td><i class="fa fa-check"></i> Third party integration
 						<tr><td><i class="fa fa-check"></i> Socket<td>
 					</table>
 				</div>
