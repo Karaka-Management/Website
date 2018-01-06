@@ -186,7 +186,7 @@ class GeneralController
         rsort($posts);
 
         foreach ($posts as $key => $post) {
-            if (is_dir($post)) {
+            if (is_dir($post) || !StringUtils::endsWith($post, '.md')) {
                 unset($posts[$key]);
             }
         }
