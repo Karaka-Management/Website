@@ -44,7 +44,7 @@ class Application extends ApplicationAbstract
         $response->getHeader()->set('x-xss-protection', '1; mode=block');
         $response->getHeader()->set('x-content-type-options', 'nosniff');
         $response->getHeader()->set('x-frame-options', 'SAMEORIGIN');
-        $response->getHeader()->set('content-security-policy', 'script-src \'self\' \'unsafe-inline\' https://cdnjs.cloudflare.com; child-src \'self\'', true);
+        $response->getHeader()->set('content-security-policy', 'script-src \'self\' blob: \'unsafe-inline\' https://cdnjs.cloudflare.com; child-src \'self\'', true);
 
         if ($this->config['page']['https']) {
             $response->getHeader()->set('strict-transport-security', 'max-age=31536000');
