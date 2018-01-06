@@ -144,39 +144,6 @@ class GeneralController
         return $view;
     }
 
-    public function showDevGuideList(RequestAbstract $request, ResponseAbstract $response)
-    {
-        $view = new View($this->app, $request, $response);
-        $view->setTemplate('/Website/App/Templates/Page/devguide');
-
-        $view->setData('customer-nav', $this->getDevGuideNav());
-
-        return $view;
-    }
-
-    public function showDevGuideArticle(RequestAbstract $request, ResponseAbstract $response)
-    {
-        $view = new View($this->app, $request, $response);
-        $view->setTemplate('/Website/App/Templates/Page/docs-article');
-
-        $view->setData('customer-nav', $this->getDevGuideNav());
-
-        $path = $request->getUri()->getPath();
-        $path = str_replace('devguide', '', $path);
-
-        $doc = '';
-        
-        if (file_exists(__DIR__ . '/../../../Developer-Guide/' . $path . '.md')) {
-            $doc = file_get_contents(__DIR__ . '/../../../Developer-Guide/' . $path . '.md');
-        }
-        
-        $parsedown = new \Parsedown();
-
-        $view->setData('doc', $parsedown->text($doc));
-
-        return $view;
-    }
-
     public function showBlog(RequestAbstract $request, ResponseAbstract $response)
     {
         $view = new View($this->app, $request, $response);
