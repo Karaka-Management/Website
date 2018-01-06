@@ -1,8 +1,5 @@
 <?php
-
-define('ROOT_PATH', __DIR__);
-
-$CONFIG = [
+return [
     'page'     => [
         'root'  => '/',
         'https' => false,
