@@ -33,18 +33,6 @@ return [
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^devguide$' => [
-        [
-            'dest' => 'Website\App\Controllers\GeneralController:showDevGuideList',
-            'verb' => RouteVerb::GET,
-        ],
-    ],
-    '^devguide/.*$' => [
-        [
-            'dest' => 'Website\App\Controllers\GeneralController:showDevGuideArticle',
-            'verb' => RouteVerb::GET,
-        ],
-    ],
     '^blog$' => [
         [
             'dest' => 'Website\App\Controllers\GeneralController:showBlog',
