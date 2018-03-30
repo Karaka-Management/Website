@@ -70,7 +70,7 @@
                 </ul>
             </div>
         </div>
-        <h2>Framework Pdepend</h2>
+        <!--<h2>Framework Pdepend</h2>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <img src="http://orange-management.de/Inspection/Framework/pdepend/chart.svg">
@@ -87,6 +87,6 @@
             <div class="col-xs-12 col-sm-6">
                 <img src="http://orange-management.de/Inspection/Modules/pdepend/pyramid.svg">
             </div>
-        </div>
+        </div>-->
     </section>
 </main>
