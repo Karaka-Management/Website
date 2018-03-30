@@ -8,7 +8,8 @@
                     <a target="_blank" href="https://github.com/Orange-Management/jsOMS/issues"><img src="https://img.shields.io/github/issues/Orange-Management/jsOMS.svg"></a>
                     <a target="_blank" href="https://github.com/Orange-Management/Modules/issues"><img src="https://img.shields.io/github/issues/Orange-Management/Modules.svg"></a>
                 </p>
-                <p>The following links provide information about the code base. Some inspections use third party tools to analyze the code base and generate reports. Some reports are generated through shell scripts and linked here. Additionaly to code inspection reports you can also find links to the github dashboard and the automatically generated DocBlock documentation intended for developers. Links that direct to an empty output indicate that the inspection didn't return any critical code segments.</p>
+                <p>The following links provide information about the code base. Some inspections use third party tools to analyze the code base and generate reports. Some reports are generated through shell scripts and linked here. Additionaly to code inspection reports you can also find links to the github dashboard and the automatically generated DocBlock documentation intended for developers.</p>
+                <p>Links that direct to an empty output indicate that the inspection didn't return any critical code segments.</p>
             </div>
         </div>
         <div class="row">
@@ -36,10 +37,10 @@
             <div class="col-xs-12 col-sm-6">
                 <h2>Code Quality</h2>
                 <ul>
-                    <li><a target="_blank" href="http://orange-management.de/Inspection/Framework/phpcs.log">Code Sniffer Framework</a>
-                    <li><a target="_blank" href="http://orange-management.de/Inspection/Modules/phpcs.log">Code Sniffer Modules</a>
-                    <li><a target="_blank" href="http://orange-management.de/Inspection/Framework/phpstan.log">Code Analysis Framework</a>
-                    <li><a target="_blank" href="http://orange-management.de/Inspection/Module/phpstan.log">Code Analysis Module</a>
+                    <li><a target="_blank" href="http://orange-management.de/Inspection/Framework/phpcs.log">Framework Code Sniffer</a>
+                    <li><a target="_blank" href="http://orange-management.de/Inspection/Modules/phpcs.log">Modules Code Sniffer</a>
+                    <li><a target="_blank" href="http://orange-management.de/Inspection/Framework/phpstan.log">Framework Code Analysis</a>
+                    <li><a target="_blank" href="http://orange-management.de/Inspection/Modules/phpstan.log">Modules Code Analysis</a>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-6">
