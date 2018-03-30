@@ -32,29 +32,14 @@
                 </ul>
             </div>
         </div>
-        <h2>Framework Pdepend</h2>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6">
-                <img src="http://orange-management.de/Inspection/Framework/pdepend/chart.svg">
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <img src="http://orange-management.de/Inspection/Framework/pdepend/pyramid.svg">
-            </div>
-        </div>
-        <h2>Modules Pdepend</h2>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6">
-                <img src="http://orange-management.de/Inspection/Modules/pdepend/chart.svg">
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <img src="http://orange-management.de/Inspection/Modules/pdepend/pyramid.svg">
-            </div>
-        </div>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <h2>Code Quality</h2>
                 <ul>
-                    <li><a target="_blank" href="http://orange-management.de/Inspection/Framework/phpcpd/phpcpd.log">Duplicated code</a>
+                    <li><a target="_blank" href="http://orange-management.de/Inspection/Framework/phpcs.log">Code Sniffer Framework</a>
+                    <li><a target="_blank" href="http://orange-management.de/Inspection/Modules/phpcs.log">Code Sniffer Modules</a>
+                    <li><a target="_blank" href="http://orange-management.de/Inspection/Framework/phpstan.log">Code Analysis Framework</a>
+                    <li><a target="_blank" href="http://orange-management.de/Inspection/Module/phpstan.log">Code Analysis Module</a>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-6">
@@ -82,6 +67,24 @@
                     <li><a target="_blank" href="http://orange-management.de/Inspection/Modules/html/attributes_invalid.log">Invalid HTML Attributes</a>
                     <li><a target="_blank" href="http://orange-management.de/Inspection/Modules/html/tags.log">Depreciated tags</a>
                 </ul>
+            </div>
+        </div>
+        <h2>Framework Pdepend</h2>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <img src="http://orange-management.de/Inspection/Framework/pdepend/chart.svg">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <img src="http://orange-management.de/Inspection/Framework/pdepend/pyramid.svg">
+            </div>
+        </div>
+        <h2>Modules Pdepend</h2>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <img src="http://orange-management.de/Inspection/Modules/pdepend/chart.svg">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <img src="http://orange-management.de/Inspection/Modules/pdepend/pyramid.svg">
             </div>
         </div>
     </section>
