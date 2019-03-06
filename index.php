@@ -3,32 +3,17 @@
         <title></title>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/business.css">
     </head>
     <body>
         <header>
-            <div id="top">
-                <div class="floater">
-                    <nav>
-                        <span id="company"><a href="">Orange-Management</a></span>
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Solutions</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Shop</a></li>
-                            <li><a href="">Info</a></li>
-                            <li><a href="">Support</a></li>
-                            <li><a href="">Demo</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <?php include __DIR__ . '/tpl/nav.php'; ?>
 
             <div class="floater">
                 <div id="header-content">
                     <span class="box slide-up-fade-in">
-                        <h1>This is a short title</h1>
-                        <p>This is some test message This is some test message. This is some test message. This is some test message. This is some test message.This is some test message.</p>
-                        <p>This is some test message This is some test message. This is some test message. This is some test message. This is some test message.This is some test message.</p>
+                        <h1>Business Software done right!</h1>
+                        <p>Modern business software in one application for all company sizes and types. The Orange-Management software supports you with your tasks and relieves you from as much administrative work as possible so you can focus on the important aspects of your business.</p>
                     </span>
                     <span class="img"><img src="img/logo.png"></span>
                 </div>
@@ -37,24 +22,22 @@
         <main>
             <div class="block block1">
                 <div id="content-header-container">
-                    <div class="floater">
-                        <div class="flex">
-                            <div class="box1 box">
-                                <div class="tcenter"><img src="img/calendar.svg" width="60%"></div>
-                                <h1>Manage your Business</h1>
-                                <p>Orange-Management allows you to manage your business and activities from one application. You gain time by finally letting your software work do the administrative work for you.</p>
-                            </div>
-                            <div class="box1 box">
-                                <div class="tcenter"><img src="img/tablet.png" width="55%"></div>
-                                <h1>Unlock all Platforms</h1>
-                                <p>Use the Orange-Management application from every platform from every place. You can collaborate with your team, no matter if you use cellphone, tablet or PC and have full control over everything.</p>
-                                <p></p>
-                            </div>
-                            <div class="box1 box">
-                                <div class="tcenter"><img src="img/report.svg" width="60%"></div>
-                                <h1>Comprehensive Insights</h1>
-                                <p>Gain full insights about every aspect of your business in easy to understand reports and analysis. Let Orange-Management help you with improving your workflows and business operations.</p>
-                            </div>
+                    <div class="floater flex">
+                        <div class="box1 box">
+                            <div class="tcenter"><img src="img/calendar.svg" width="60%"></div>
+                            <h1>Manage your Business</h1>
+                            <p>Orange-Management provides all the tools you need in order to manage your business and handle it's activiteies in one eco-system. You and your team will be able to focus on the importent things allowing your business to grow.</p>
+                        </div>
+                        <div class="box1 box">
+                            <div class="tcenter"><img src="img/tablet.png" width="55%"></div>
+                            <h1>Unlock all Platforms</h1>
+                            <p>Use the Orange-Management application from every platform from every place. You can collaborate with your team, no matter if you use cellphone, tablet or PC and have full control over everything.</p>
+                            <p></p>
+                        </div>
+                        <div class="box1 box">
+                            <div class="tcenter"><img src="img/report.svg" width="60%"></div>
+                            <h1>Comprehensive Insights</h1>
+                            <p>Gain full insights about every aspect of your business in easy to understand reports and analysis. Let Orange-Management help you with improving your workflows and business operations.</p>
                         </div>
                     </div>
                 </div>
@@ -87,7 +70,7 @@
                                 <div class="ico"><img width="60px" src="img/icon/scale.svg"></div>
                             </div>
                         </div>
-                        <div class="box center"><img src="img/fruit-tree.svg" width="100%"></div>
+                        <div class="box center"></div>
                         <div class="box right">
                             <div class="flex">
                                 <div class="ico"><img width="50px" src="img/icon/phone-speak.svg"></div>
@@ -120,12 +103,13 @@
             <div class="block block2">
                 <div class="floater">
                     <span class="box">
-                        <h1>This is a short title</h1>
-                        <h2>This is some test message This is some test message. This is some test message. This is some test message. This is some test message.This is some test message.</h2>
+                        <h1>Getting Started</h1>
+                        <h2>The setup of the Orange-Management application is very simple and can be done within a couple of minutes. In order to test the software feel free to check our <a href="https://orange-management.app">demo</a> application. </h2>
                     </span>
                     <div class="flex section">
                         <div class="box">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in erat sodales, ultricies lorem non, luctus dolor. Sed tempor purus quam, a consectetur nisi sollicitudin vitae. Integer malesuada eu neque ac aliquam.</p>
+                            <p>Within a couple of minutes you can have your whole business software setup and ready for use thanks to simple installation and configuration options. Select your features and get going.</p>
+                            <p>Expand your features as your requirements change and your business grows with a few clicks giving you flexibility and cost control.</p>
                         </div>
                         <div class="box1">
                             <div class="tcenter"><img src="img/cloud-purple.svg" width="80%"></div>
@@ -150,19 +134,16 @@
             </div>
             <div class="block block3">
                 <div class="floater">
-                    <h1>Lorem Ipsum</h1>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat tincidunt erat tristique consequat. Phasellus efficitur eros et pharetra varius. Suspendisse pulvinar libero sem, vitae malesuada dui accumsan sit amet. Aliquam mauris dolor, ultricies ornare lectus vitae, dictum pretium eros. Integer consequat sed est sed porta. Duis tempus id urna nec pulvinar. Ut metus nisl, condimentum et elementum eget, venenatis et nibh.</p>
+                    <h1>Orange-Management</h1>
+                    <p>With Orange-Management you have one partner who can provide all the tools and software solutions you are used to. Our solutions can be used independently from each other or fully integrated with other solutions we provide. By choosing Orange-Management as your partner you'll be able to adjust your software based on the changes in your requirements without worring about integration and workflow optimization. </p>
 
-                    <p>Aliquam eget commodo est, in pulvinar velit. In eleifend, leo eget egestas condimentum, purus metus laoreet quam, id semper risus turpis vel lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis, felis ac iaculis facilisis, risus dolor tristique libero, sit amet rutrum nulla diam sit amet ante. Vivamus neque lorem, posuere eget venenatis vel, bibendum in purus. Phasellus vel accumsan massa. Suspendisse ut velit eget enim molestie efficitur eu eget risus. </p>
-                    <div class="tcenter"><img src="img/flow-tree-combined.svg" width="80%"></div>
-                    <p>Integer rhoncus vel neque nec auctor. Pellentesque ut sapien id mi lacinia tincidunt a non nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras mi lorem, auctor ac elit et, molestie tempus quam. Praesent convallis ante mi, in auctor elit iaculis eu. Nam suscipit scelerisque sagittis. Aenean scelerisque convallis blandit. Sed eget nulla sollicitudin turpis rutrum faucibus. Proin sed quam odio. Cras consectetur quam sit amet ultrices porta. Aenean mollis, lectus vitae maximus molestie, orci erat vehicula magna, non iaculis ex est ut dui. Mauris et arcu tortor.</p>
+                    <div class="tcenter spacer"><img src="img/flow-tree-combined.svg" width="80%"></div>
+
+                    <p>We believe software should support a business in it's daily tasks and growth in a very efficient way without frustration. In order to achieve this we constantly take feedback from our customers and expand and improve our software solutions. Since we believe in our software and transparent business model you can see all our prices in our shop and live test parts of our application and it's modules in our demo application without any registration or inquiry.</p>
                 </div>
             </div>
         </main>
-        <footer>
-            <div class="floater">
-                Here some footer text
-            </div>
-        </footer>
+
+        <?php include __DIR__ . '/tpl/footer.php'; ?>
     </body>
 </html>
