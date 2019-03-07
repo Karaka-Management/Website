@@ -50,7 +50,7 @@
                                     <h3>Interconnected Processes</h3>
                                     <p>Complete customizable and combinable workflows instead of island solutions.</p>
                                 </div>
-                                <div class="ico"><img width="65px" src="img/icon/graph-network.svg"></div>
+                                <div class="ico"><img width="65px" src="app/img/icon/graph-network.svg"></div>
                             </div>
 
                             <div class="flex">
@@ -58,7 +58,7 @@
                                     <h3>Access</h3>
                                     <p>Accessible from all platforms and internationalized application & documentation.</p>
                                 </div>
-                                <div class="ico"><img width="55px" src="img/icon/globe.svg"></div>
+                                <div class="ico"><img width="55px" src="app/img/icon/globe.svg"></div>
                             </div>
 
                             <div class="flex">
@@ -66,13 +66,13 @@
                                     <h3>Compliance & Standards</h3>
                                     <p>Seamlessly integrated compliances and industry standards without additional effort.</p>
                                 </div>
-                                <div class="ico"><img width="60px" src="img/icon/scale.svg"></div>
+                                <div class="ico"><img width="60px" src="app/img/icon/scale.svg"></div>
                             </div>
                         </div>
                         <div class="box center"></div>
                         <div class="box right">
                             <div class="flex">
-                                <div class="ico"><img width="50px" src="img/icon/phone-speak.svg"></div>
+                                <div class="ico"><img width="50px" src="app/img/icon/phone-speak.svg"></div>
                                 <div class="text">
                                     <h3>Support & Updates</h3>
                                     <p>Reliable support and updates. Regular feature implementation and quick issue solutions.</p>
@@ -80,7 +80,7 @@
                             </div>
 
                             <div class="flex">
-                                <div class="ico"><img width="40px" src="img/icon/sitemap.svg"></div>
+                                <div class="ico"><img width="40px" src="app/img/icon/sitemap.svg"></div>
                                 <div class="text">
                                     <h3>One application</h3>
                                     <p>Control and management of all business aspects from within one application.</p>
@@ -88,7 +88,7 @@
                             </div>
 
                             <div class="flex">
-                                <div class="ico"><img width="50px" src="img/icon/bar-line-chart.svg"></div>
+                                <div class="ico"><img width="50px" src="app/img/icon/bar-line-chart.svg"></div>
                                 <div class="text">
                                     <h3>Intuitive interface</h3>
                                     <p>Intuitive user interface for ease of use combined with simple visualizations.</p>
