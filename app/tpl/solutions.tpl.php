@@ -68,54 +68,54 @@
 
                 <div class="block">
                     <div class="floater">
-                        <h1>Phylosophy & Core Features</h1>
+                        <h1>Concepts & Philosophy</h1>
                         <div class="flex section">
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Simple</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Performant</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Modular</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Seamless</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
                         </div>
                         <div class="flex section">
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Auditable</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Fair Pricing</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Constant Improvments</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>GDPR</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
                         </div>
@@ -184,50 +184,50 @@
                         <div class="flex section">
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Audit Log</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Blockchain Data Integrity</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Data Encryption</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>User & Group Permissions</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
                         </div>
                         <div class="flex section">
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Free Security Fixes</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Application Integrity Validation</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>Content Security Policy</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
-                                <h1>Installation</h1>
+                                <h1>User Data Validation</h1>
                                 <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             </div>
                         </div>

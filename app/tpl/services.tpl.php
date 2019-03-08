@@ -95,7 +95,7 @@
                     </div>
                     <div class="box">
                         <h1>Customization</h1>
-                        <p>Feedback from users is constantly reviewed and integrated in our solutions, nevertheless there are various situations when custom solutions are required for a company. We provide these custom solutions by customizing existing modules to your requirements.</p>
+                        <p>Feedback from users is constantly reviewed and integrated in our solutions, nevertheless there are various situations when custom solutions are required for a company. We provide these custom solutions by modifying the user interface or features to your requirements.</p>
 
                         <p>Prices: Individually. Depends on scale.<p>
 
