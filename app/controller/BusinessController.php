@@ -29,4 +29,9 @@ class BusinessController
     {
         $response->get('Content')->setTemplate('/app/tpl/services');
     }
+    
+    public function viewInfo(RequestAbstract $request, ResponseAbstract $response, $data = null)
+    {
+        $response->get('Content')->setTemplate('/app/tpl/info');
+    }
 }
