@@ -21,4 +21,10 @@ return [
             'verb' => RouteVerb::GET,
         ],
     ],
+    '^info.*$' => [
+        [
+            'dest' => '\app\controller\BusinessController:viewInfo',
+            'verb' => RouteVerb::GET,
+        ],
+    ],
 ];
