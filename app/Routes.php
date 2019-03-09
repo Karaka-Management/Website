@@ -21,9 +21,21 @@ return [
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^info.*$' => [
+    '^info$' => [
         [
-            'dest' => '\app\controller\BusinessController:viewInfo',
+            'dest' => '\app\controller\InfoController:viewHome',
+            'verb' => RouteVerb::GET,
+        ],
+    ],
+    '^info\?page=.*$' => [
+        [
+            'dest' => '\app\controller\InfoController:viewDoc',
+            'verb' => RouteVerb::GET,
+        ],
+    ],
+    '^info/article.*$' => [
+        [
+            'dest' => '\app\controller\InfoController:viewArticle',
             'verb' => RouteVerb::GET,
         ],
     ],

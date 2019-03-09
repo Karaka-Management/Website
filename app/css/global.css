@@ -35,16 +35,18 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fiel
 a {
     text-decoration: none;
     outline: none;
+    color: var(--header-background);
 }
 
 button {
     background-image: linear-gradient(var(--header-background-highlight), var(--header-background));
     border-radius: 2rem;
     border: none;
-    color: rgba(255, 255, 255, 0.95);;
+    color: rgba(255, 255, 255, 0.95);
     font-weight: bold;
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: background-color 0.5s ease,
+                color 0.5s ease;
 }
 
 button.large {
@@ -74,6 +76,7 @@ button:hover, button:active {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px 0 20px;
+    box-sizing: border-box;
 }
 
 nav {
@@ -81,11 +84,11 @@ nav {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 nav ul {
     display: inherit;
+    margin-left: auto;
 }
 
 nav li {
@@ -114,6 +117,15 @@ nav a:hover {
     color: #fff;
     font-size: 2rem;
     font-weight: 900;
+}
+
+#company-logo {
+    margin-right: 1rem;
+    flex: 0;
+}
+
+#company-logo img {
+    width: 40px;
 }
 
 #company a:hover{
@@ -191,7 +203,42 @@ body > header {
 }
 
 footer {
-    color:rgba(255, 255, 255, 0.60);
+    color:rgba(255, 255, 255, 0.50);
     background: var(--footer-background);
     padding: 2rem 0 2rem 0;
+}
+
+footer h1, footer p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    font-size: 0.8rem;
+    list-style-type: none;
+}
+
+
+footer li {
+    margin-bottom: .5rem;
+}
+
+footer a {
+    color:rgba(255, 255, 255, 0.65);
+    margin-bottom: 1rem;
+    white-space: nowrap;
+}
+
+footer a:hover {
+    color:rgba(255, 255, 255, 0.85);
+}
+
+footer .flex > div {
+    min-width: 100px;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+footer .flex > div:not(:first-child) {
+    margin-left: 2rem;
 }

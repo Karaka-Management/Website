@@ -1,6 +1,7 @@
 <div id="top">
     <div class="floater">
         <nav>
+            <span id="company-logo"><img src="/app/img/logo.png"></span>
             <span id="company"><a href="/">Orange-Management</a></span>
             <ul>
                 <li><a href="/">Home</a></li>

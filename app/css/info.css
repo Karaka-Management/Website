@@ -1,0 +1,72 @@
+main {
+    padding: 2rem 0 2rem 0;
+}
+
+#nav-side ul {
+    list-style-type: none;
+}
+
+#nav-side h1+ul, #nav-side h2+ul {
+    margin: 0 0 1rem 0;
+}
+
+#nav-side h1 {
+    font-size: 1.5rem;
+    padding-left: .5rem;
+}
+
+#nav-side h2 {
+    font-size: 1rem;
+    padding-left: .5rem;
+}
+
+#nav-side a {
+    font-size: .9rem;
+    display: block;
+    padding: .3rem .5rem .3rem .5rem;
+}
+
+#nav-side a:hover, #nav-side a:active, #nav-side a.active {
+    color: #fff;
+    background: var(--header-background);
+}
+
+#content {
+    box-sizing: border-box;
+    margin-left: 2rem;
+    flex: 1;
+    color: rgba(0, 0, 0, 0.95);
+}
+
+article p {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+article ul {
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+article table {
+    margin: 0 auto;
+}
+
+article thead {
+    background: var(--header-border);
+    color: #fff;
+    text-align: left;
+}
+
+article th, article td {
+    padding: 1rem 5rem 1rem 1rem;
+}
+
+article tbody tr:nth-child(2n) {
+    background: var(--block2-background);
+}
+
+#news-button {
+    color: #fff;
+    background: var(--header-background);
+    margin-bottom: 1rem;
+}

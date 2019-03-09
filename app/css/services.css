@@ -11,10 +11,6 @@
     background: var(--block3-background);
 }
 
-.flex .box {
-    height: 100%;
-}
-
 .flex .box:nth-child(2n) {
     text-align: left;
     margin-left: 4rem;
