@@ -22,8 +22,6 @@ class Application extends ApplicationAbstract
         $request  = $this->initRequest();
         $response = $this->initResponse($request);
 
-        UriFactory::setupUriBuilder($request->getUri());
-
         $pageView = new View(null, $request, $response);
         $pageView->setTemplate('/app/tpl/business');
         $response->set('Content', $pageView);

@@ -103,7 +103,7 @@
                 <div class="floater">
                     <span class="box">
                         <h1>Getting Started</h1>
-                        <h2>The setup of the Orange-Management application is very simple and can be done within a couple of minutes. In order to test the software feel free to check our <a href="https://orange-management.app">demo</a> application. </h2>
+                        <h2>The setup of the Orange-Management application is very simple and can be done within a couple of minutes. In order to test the software feel free to check our <a href="/demo">demo</a> application. </h2>
                     </span>
                     <div class="flex section">
                         <div class="box">
