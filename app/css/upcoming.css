@@ -1,0 +1,12 @@
+#upcoming {
+    background: var(--footer-background);
+    align-items: center;
+    text-align: center;
+    height: 65%;
+}
+
+#upcoming h1 {
+    font-weight: 100;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.95);
+}

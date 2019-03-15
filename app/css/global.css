@@ -38,7 +38,7 @@ a {
     color: var(--header-background);
 }
 
-button {
+button, input[type=submit] {
     background-image: linear-gradient(var(--header-background-highlight), var(--header-background));
     border-radius: 2rem;
     border: none;
@@ -49,19 +49,19 @@ button {
                 color 0.5s ease;
 }
 
-button.large {
+button.large, input[type=submit].large {
     padding: .9rem 1rem .9rem 1rem;
     min-width: 15rem;
     font-size: 1.3rem;
 }
 
-button.small {
+button.small, input[type=submit].small {
     padding: .3rem .5rem .3rem .5rem;
     min-width: 5rem;
     font-size: .9rem;
 }
 
-button:hover, button:active {
+button:hover, button:active, input[type=submit]:hover, input[type=submit]:active {
     color: var(--header-background);
     background: #fff;
 }
@@ -101,8 +101,7 @@ nav li:not(:first-child) {
 
 nav a {
     font-size: 1.1rem;
-    color: rgba(255, 255, 255, 0.95);
-    font-weight: 100;
+    color: rgba(255, 255, 255, .95);
     letter-spacing: 1px;
     padding-bottom: 10px;
 }
@@ -116,7 +115,7 @@ nav a:hover {
     letter-spacing: 1px;
     color: #fff;
     font-size: 2rem;
-    font-weight: 900;
+    font-weight: 400;
 }
 
 #company-logo {
@@ -162,6 +161,7 @@ body > header {
 
 .box p {
     margin: 0 0 1.5rem 0;
+    font-weight: 300;
 }
 
 .spacer {
@@ -169,6 +169,7 @@ body > header {
 }
 
 .block {
+    font-weight: 300;
     padding: 4rem 0 4rem 0;
 }
 
@@ -178,14 +179,14 @@ body > header {
 }
 
 .block h1 {
-    font-weight: 100;
+    font-weight: 200;
     text-align: center;
     margin: 0 0 0.5rem 0;
 }
 
 .block h2 {
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 300;
     text-align: center;
     padding: 0 0 2rem 0;
     width: 80%;
@@ -200,6 +201,26 @@ body > header {
 
 .section {
     margin-top: 2rem;
+}
+
+.box1 {
+    flex: 1;
+    background: #fff;
+    border-radius: .3rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+.box1:not(:first-child) {
+    margin-left: 20px;
+}
+
+.box1 h1 {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 200;
+    padding-top: 1rem;
+    color: rgba(0, 0, 0, 0.95);
 }
 
 footer {
@@ -241,4 +262,10 @@ footer .flex > div {
 
 footer .flex > div:not(:first-child) {
     margin-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    header nav ul, #header-content .img, footer .flex div:first-child {
+        display: none;
+    }
 }

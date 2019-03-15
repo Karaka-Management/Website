@@ -27,40 +27,16 @@ body > header .box {
 }
 
 body > header .box h1 {
-    font-size: 1.5rem;
-    font-weight: 100;
-    color: rgba(255, 255, 255, 0.95);
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 1);
     padding-bottom: 1rem;
-}
-
-#content-header-container {
-    position: relative;
-    top: -110;
-    color: rgba(0, 0, 0, 0.658);
-}
-
-#content-header-container h1 {
-    text-align: left;
-    font-size: 1rem;
-    font-weight: bold;
-    padding-top: 1rem;
-}
-
-.box1 {
-    flex: 1;
-    background: #fff;
-    border-radius: .3rem;
-    padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
-}
-
-.box1:not(:first-child) {
-    margin-left: 20px;
 }
 
 body > header .box p {
     line-height: 1.75rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    font-weight: 300;
 }
 
 body > header .img:after {
@@ -74,12 +50,28 @@ body > header .img:after {
     box-shadow: 0px 20px 5px hsla(0, 0%, 0%, 0.25);
 }
 
-.block .box1 h1 {
+#content-header-container {
+    position: relative;
+    top: -110;
+    color: rgba(0, 0, 0, 0.95);
+}
+
+#content-header-container .flex {
+    flex-flow: row wrap;
+    margin: -1rem 0 -1rem -1rem;
+}
+
+#content-header-container .flex>div {
+    flex: 1 1 calc(33.33% - 1rem);
+    margin: 1rem 0 1rem 1rem;
+    min-width: 250px;
+}
+
+#content-header-container h1 {
     text-align: left;
     font-size: 1rem;
     font-weight: bold;
     padding-top: 1rem;
-    color: rgba(0, 0, 0, 0.658);
 }
 
 .block1 .section {
@@ -135,8 +127,32 @@ body > header .img:after {
     margin-left: 20px;
 }
 
+.block1-b > .floater > .flex {
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: -.5rem 0 -.5rem -.5rem;
+}
+
+.block1-b > .floater > .flex > div:nth-child(2n + 1) {
+    flex: 1 1 calc(25% - .5rem);
+    margin: .5rem 0 .5rem .5rem;
+    min-width: 250px;
+}
+
 .block2 {
     background: var(--block2-background);
+}
+
+.block2 .flex {
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: -1rem 0 -1rem -1rem;
+}
+
+.block2 .flex>div {
+    flex: 1 1 calc(25% - 1rem);
+    margin: 1rem 0 1rem 1rem;
+    min-width: 250px;
 }
 
 .block3 {

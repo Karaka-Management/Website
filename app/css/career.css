@@ -1,0 +1,15 @@
+#career {
+    background: var(--block2-background);
+}
+
+#career .flex {
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: -.5rem 0 -.5rem -.5rem;
+}
+
+#career .flex>div {
+    flex: 1 1 calc(25% - .5rem);
+    margin: .5rem 0 .5rem .5rem;
+    min-width: 250px;
+}

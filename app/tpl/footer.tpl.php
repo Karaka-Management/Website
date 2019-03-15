@@ -9,20 +9,12 @@
                 </div>
             </div>
             <div>
-                <h1>Contact</h1>
-                <ul>
-                    <li><a href="/contact">General</a>
-                    <li><a href="/support">Support</a>
-                    <li><a href="/shop">Inquiry</a>
-                </ul>
-            </div>
-            <div>
                 <h1>Other Pages</h1>
                 <ul>
                     <li><a href="/dev">Dev</a>
                     <li><a href="/live">Live</a>
                     <li><a href="/career">Career</a>
-                    <li><a href="/status">Status</a>
+                    <li><a href="/contact">Contact</a>
                 </ul>
             </div>
             <div>

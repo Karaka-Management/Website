@@ -21,89 +21,93 @@
         <main>
             <div class="block block1">
                 <div id="content-header-container">
-                    <div class="floater flex">
-                        <div class="box1 box">
-                            <div class="tcenter"><img src="app/img/calendar.svg" width="60%"></div>
-                            <h1>Manage your Business</h1>
-                            <p>Orange-Management provides all the tools you need in order to manage your business and handle it's activiteies in one eco-system. You and your team will be able to focus on the importent things allowing your business to grow.</p>
-                        </div>
-                        <div class="box1 box">
-                            <div class="tcenter"><img src="app/img/tablet.png" width="55%"></div>
-                            <h1>Unlock all Platforms</h1>
-                            <p>Use the Orange-Management application from every platform from every place. You can collaborate with your team, no matter if you use cellphone, tablet or PC and have full control over everything.</p>
-                            <p></p>
-                        </div>
-                        <div class="box1 box">
-                            <div class="tcenter"><img src="app/img/report.svg" width="60%"></div>
-                            <h1>Comprehensive Insights</h1>
-                            <p>Gain full insights about every aspect of your business in easy to understand reports and analysis. Let Orange-Management help you with improving your workflows and business operations.</p>
+                    <div class="floater">
+                        <div class="flex">
+                            <div class="box1 box">
+                                <div class="tcenter"><img src="app/img/calendar.svg" width="60%"></div>
+                                <h1>Manage your Business</h1>
+                                <p>Orange-Management provides all the tools you need in order to manage your business and handle it's activiteies in one eco-system. You and your team will be able to focus on the importent things allowing your business to grow.</p>
+                            </div>
+                            <div class="box1 box">
+                                <div class="tcenter"><img src="app/img/tablet.png" width="55%"></div>
+                                <h1>Unlock all Platforms</h1>
+                                <p>Use the Orange-Management application from every platform from every place. You can collaborate with your team, no matter if you use cellphone, tablet or PC and have full control over everything.</p>
+                                <p></p>
+                            </div>
+                            <div class="box1 box">
+                                <div class="tcenter"><img src="app/img/report.svg" width="60%"></div>
+                                <h1>Comprehensive Insights</h1>
+                                <p>Gain full insights about every aspect of your business in easy to understand reports and analysis. Let Orange-Management help you with improving your workflows and business operations.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="floater">
-                    <h1>Grow your Business</h1>
-                    <h2>The key to a successful business is the amount of time you can efficiently focus on your core business operations and how well a software can support you with these tasks. Orange-Management provides you with the following benefits:</h2>
-                    <div class="flex section">
-                        <div class="box left">
-                            <div class="flex">
-                                <div class="text">
-                                    <h3>Interconnected Processes</h3>
-                                    <p>Complete customizable and combinable workflows instead of island solutions.</p>
+                <div class="block1-b">
+                    <div class="floater">
+                        <h1>Grow your Business</h1>
+                        <h2>The key to a successful business is the amount of time you can efficiently focus on your core business operations and how well a software can support you with these tasks. Orange-Management provides you with the following benefits:</h2>
+                        <div class="flex section">
+                            <div class="box left">
+                                <div class="flex">
+                                    <div class="text">
+                                        <h3>Interconnected Processes</h3>
+                                        <p>Complete customizable and combinable workflows instead of island solutions.</p>
+                                    </div>
+                                    <div class="ico"><img width="65px" src="app/img/icon/graph-network.svg"></div>
                                 </div>
-                                <div class="ico"><img width="65px" src="app/img/icon/graph-network.svg"></div>
-                            </div>
 
-                            <div class="flex">
-                                <div class="text">
-                                    <h3>Access</h3>
-                                    <p>Accessible from all platforms and internationalized application & documentation.</p>
+                                <div class="flex">
+                                    <div class="text">
+                                        <h3>Access</h3>
+                                        <p>Accessible from all platforms and internationalized application & documentation.</p>
+                                    </div>
+                                    <div class="ico"><img width="55px" src="app/img/icon/globe.svg"></div>
                                 </div>
-                                <div class="ico"><img width="55px" src="app/img/icon/globe.svg"></div>
-                            </div>
 
-                            <div class="flex">
-                                <div class="text">
-                                    <h3>Compliance & Standards</h3>
-                                    <p>Seamlessly integrated compliances and industry standards without additional effort.</p>
+                                <div class="flex">
+                                    <div class="text">
+                                        <h3>Compliance & Standards</h3>
+                                        <p>Seamlessly integrated compliances and industry standards without additional effort.</p>
+                                    </div>
+                                    <div class="ico"><img width="60px" src="app/img/icon/scale.svg"></div>
                                 </div>
-                                <div class="ico"><img width="60px" src="app/img/icon/scale.svg"></div>
+                            </div>
+                            <div class="box center"></div>
+                            <div class="box right">
+                                <div class="flex">
+                                    <div class="ico"><img width="50px" src="app/img/icon/phone-speak.svg"></div>
+                                    <div class="text">
+                                        <h3>Support & Updates</h3>
+                                        <p>Reliable support and updates. Regular feature implementation and quick issue solutions.</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex">
+                                    <div class="ico"><img width="40px" src="app/img/icon/sitemap.svg"></div>
+                                    <div class="text">
+                                        <h3>One application</h3>
+                                        <p>Control and management of all business aspects from within one application.</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex">
+                                    <div class="ico"><img width="50px" src="app/img/icon/bar-line-chart.svg"></div>
+                                    <div class="text">
+                                        <h3>Intuitive interface</h3>
+                                        <p>Intuitive user interface for ease of use combined with simple visualizations.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="box center"></div>
-                        <div class="box right">
-                            <div class="flex">
-                                <div class="ico"><img width="50px" src="app/img/icon/phone-speak.svg"></div>
-                                <div class="text">
-                                    <h3>Support & Updates</h3>
-                                    <p>Reliable support and updates. Regular feature implementation and quick issue solutions.</p>
-                                </div>
-                            </div>
-
-                            <div class="flex">
-                                <div class="ico"><img width="40px" src="app/img/icon/sitemap.svg"></div>
-                                <div class="text">
-                                    <h3>One application</h3>
-                                    <p>Control and management of all business aspects from within one application.</p>
-                                </div>
-                            </div>
-
-                            <div class="flex">
-                                <div class="ico"><img width="50px" src="app/img/icon/bar-line-chart.svg"></div>
-                                <div class="text">
-                                    <h3>Intuitive interface</h3>
-                                    <p>Intuitive user interface for ease of use combined with simple visualizations.</p>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="tcenter"><button class="large">More</button></div>
                     </div>
-                    <div class="tcenter"><button class="large">More</button></div>
                 </div>
             </div>
             <div class="block block2">
                 <div class="floater">
                     <span class="box">
                         <h1>Getting Started</h1>
-                        <h2>The setup of the Orange-Management application is very simple and can be done within a couple of minutes. In order to test the software feel free to check our <a href="/demo">demo</a> application. </h2>
+                        <h2>The setup of the Orange-Management application is very simple and can be done within a couple of minutes. In order to test the software feel free to check our <a href="https://orange-management.app">demo</a> application. </h2>
                     </span>
                     <div class="flex section">
                         <div class="box">

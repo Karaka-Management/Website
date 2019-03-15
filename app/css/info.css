@@ -13,11 +13,13 @@ main {
 #nav-side h1 {
     font-size: 1.5rem;
     padding-left: .5rem;
+    font-weight: 200;
 }
 
 #nav-side h2 {
     font-size: 1rem;
     padding-left: .5rem;
+    font-weight: 200;
 }
 
 #nav-side a {
@@ -36,6 +38,16 @@ main {
     margin-left: 2rem;
     flex: 1;
     color: rgba(0, 0, 0, 0.95);
+    font-weight: 300;
+}
+
+#content h1 {
+    font-size: 2rem;
+}
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+    font-weight: 300;
+    color: var(--header-background);
 }
 
 article p {
