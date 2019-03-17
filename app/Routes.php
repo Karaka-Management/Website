@@ -9,103 +9,103 @@ return [
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^solutions.*$' => [
+    '^/solutions.*$' => [
         [
             'dest' => '\app\controller\BusinessController:viewSolutions',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^services.*$' => [
+    '^/services.*$' => [
         [
             'dest' => '\app\controller\BusinessController:viewServices',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^info$' => [
+    '^/info$' => [
         [
             'dest' => '\app\controller\InfoController:viewHome',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^info\?page=.*$' => [
+    '^/info\?page=.*$' => [
         [
             'dest' => '\app\controller\InfoController:viewDoc',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^info/article.*$' => [
+    '^/info/article.*$' => [
         [
             'dest' => '\app\controller\InfoController:viewArticle',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^shop$' => [
+    '^/shop$' => [
         [
             'dest' => '\app\controller\ShopController:viewHome',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^support$' => [
+    '^/support$' => [
         [
             'dest' => '\app\controller\SupportController:viewHome',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^demo$' => [
+    '^/demo$' => [
         [
             'dest' => '\app\controller\AppController:viewHome',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^contact$' => [
+    '^/contact$' => [
         [
             'dest' => '\app\controller\GeneralController:viewContact',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^imprint$' => [
+    '^/imprint$' => [
         [
             'dest' => '\app\controller\GeneralController:viewImprint',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^terms$' => [
+    '^/terms$' => [
         [
             'dest' => '\app\controller\GeneralController:viewTermsOfService',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^privacy$' => [
+    '^/privacy$' => [
         [
             'dest' => '\app\controller\GeneralController:viewPrivacyPolicy',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^security$' => [
+    '^/security$' => [
         [
             'dest' => '\app\controller\GeneralController:viewSecurityStatement',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^career$' => [
+    '^/career$' => [
         [
             'dest' => '\app\controller\GeneralController:viewCareer',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^status$' => [
+    '^/status$' => [
         [
             'dest' => '\app\controller\GeneralController:viewStatus',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^live$' => [
+    '^/live$' => [
         [
             'dest' => '\app\controller\LiveController:viewHome',
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^dev$' => [
+    '^/dev$' => [
         [
             'dest' => '\app\controller\DevController:viewHome',
             'verb' => RouteVerb::GET,
