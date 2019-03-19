@@ -1,0 +1,161 @@
+.block1 .section {
+    margin-bottom: 4rem;
+}
+
+.block ul {
+    list-style-type: none;
+}
+
+.block1 .left {
+    text-align: right;
+}
+
+.block1 .right {
+    text-align: left;
+}
+
+.block1 .center {
+    text-align: center;
+}
+
+.block1 .text {
+    flex: 1;
+}
+
+.block1 .ico {
+    width: 100px;
+    margin: .5rem 0 0 0;
+    text-align: center;
+}
+
+.block1 p {
+    opacity: 0.7;
+}
+
+.block1 .box p {
+    margin: 0 0 1.5rem 0;
+}
+
+.block1 {
+    background: var(--block1-background);
+}
+
+.block .floater > h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.block1 .box1 .flex {
+    flex-flow: row wrap;
+    margin: -1rem 0 -1rem -1rem;
+}
+
+.block1 .box1 .flex>div {
+    flex: 1 1 calc(14.28% - 1rem);
+    margin: 1rem 0 1rem 1rem;
+    min-width: 150px;
+}
+
+.block1 h1 {
+    color: #fff;
+}
+
+.block1 .box {
+    flex: 2;
+}
+
+.block1 .box h1 {
+    color: rgba(0, 0, 0, .95);
+}
+
+.block1 .box.center {
+    flex: 0;
+    flex-basis: 50px;
+    margin: 0 1rem 0 1rem;
+}
+
+.block2 {
+    background: var(--block2-background);
+}
+
+.block2 .flex {
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: -1rem 0 -1rem -1rem;
+}
+
+.block2 .flex>div {
+    flex: 1 1 calc(25% - 1rem);
+    margin: 1rem 0 1rem 1rem;
+    min-width: 250px;
+}
+
+.block3 {
+    background: var(--block3-background);
+}
+
+.block3 .flex {
+    flex-flow: row wrap;
+    margin: -1rem 0 -1rem -1rem;
+}
+
+.block3 .flex>div {
+    flex: 1 1 calc(25% - 1rem);
+    margin: 1rem 0 1rem 1rem;
+    min-width: 250px;
+}
+
+.block a, .block a:hover, .block a:active {
+    font-weight: 300;
+}
+
+.block3 h2, .block1 h2 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.block3 h2:not(:first-child) {
+    margin-top: 1rem;
+}
+
+.block3 ul {
+    color: rgba(0, 0, 0, .95);
+}
+
+#content article h1 {
+    text-align: left;
+    font-size: 2rem;
+}
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6, #content h1 a {
+    font-weight: 300;
+    color: var(--header-background);
+}
+
+article p {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+article ul, article ol {
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+article table {
+    margin: 0 auto;
+}
+
+article thead {
+    background: var(--header-border);
+    color: #fff;
+    text-align: left;
+}
+
+article th, article td {
+    padding: 1rem;
+}
+
+article tbody tr:nth-child(2n) {
+    background: var(--block2-background);
+}

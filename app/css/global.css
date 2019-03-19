@@ -178,6 +178,16 @@ body > header {
     line-height: 1.5rem;
 }
 
+.block ul p {
+    margin: 0;
+    padding: 0;
+}
+
+.block1 .box ul p {
+    margin: 0;
+    padding: 0;
+}
+
 .block h1 {
     font-weight: 200;
     text-align: center;
@@ -209,10 +219,6 @@ body > header {
     border-radius: .3rem;
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
-}
-
-.box1:not(:first-child) {
-    margin-left: 20px;
 }
 
 .box1 h1 {

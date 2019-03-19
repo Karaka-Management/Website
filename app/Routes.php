@@ -111,4 +111,16 @@ return [
             'verb' => RouteVerb::GET,
         ],
     ],
+    '^/dev/guide.*$' => [
+        [
+            'dest' => '\app\controller\DevController:viewGuide',
+            'verb' => RouteVerb::GET,
+        ],
+    ],
+    '^/dev/post.*$' => [
+        [
+            'dest' => '\app\controller\DevController:viewPost',
+            'verb' => RouteVerb::GET,
+        ],
+    ],
 ];

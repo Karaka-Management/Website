@@ -6,7 +6,7 @@ main {
     list-style-type: none;
 }
 
-#nav-side h1+ul, #nav-side h2+ul {
+#nav-side h1+ul, #nav-side h2+ul, #nav-side h3+ul {
     margin: 0 0 1rem 0;
 }
 
@@ -16,7 +16,7 @@ main {
     font-weight: 200;
 }
 
-#nav-side h2 {
+#nav-side h2, #nav-side h3 {
     font-size: 1rem;
     padding-left: .5rem;
     font-weight: 200;
@@ -35,10 +35,13 @@ main {
 
 #content {
     box-sizing: border-box;
-    margin-left: 2rem;
     flex: 1;
     color: rgba(0, 0, 0, 0.95);
     font-weight: 300;
+}
+
+div + #content {
+    margin-left: 2rem;
 }
 
 #content h1 {

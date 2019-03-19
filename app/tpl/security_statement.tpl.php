@@ -11,7 +11,7 @@
         <main id="upcoming" class="block">
             <div class="box section">
                 <h1>Coming soon...</h1>
-            </section>
+            </div>
         </main>
         <?php include __DIR__ . '/footer.tpl.php'; ?>
     </body>
