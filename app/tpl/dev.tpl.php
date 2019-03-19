@@ -50,42 +50,29 @@
                             <h2>Tests</h2>
                             <ul>
                                 <li><a href="Inspection/Test/Php/phpunit.log">PhpUnit</a>
-                                <li><a href="">Php Coverage</a>
-                                <li><a href="">Php Linting</a>
+                                <li><a href="Inspection/Test/Php/index.html">PhpUnit Report Html</a>
+                                <li><a href="Inspection/Test/Php/coverage/phpOMS/index.html">Php Coverage</a>
+                                <li><a href="Inspection/Framework/linting/linting_php.log">Php Linting</a>
                             </ul>
                             <h2>Style</h2>
                             <ul>
-                                <li><a href="">PhpStrictTypes</a>
-                                <li><a href="">PhpCS</a>
-                                <li><a href="">PhpStan</a>
-                                <li><a href="">Phan</a>
+                                <li><a href="Inspection/Framework/strict_missing_php.log">PhpStrictTypes</a>
+                                <li><a href="Inspection/Framework/phpcs.log">PhpCS</a>
+                                <li><a href="Inspection/Framework/phpstan.log">PhpStan</a>
+                                <li><a href="Inspection/Framework/phan.log">Phan</a>
                             </ul>
                             <h2>Other</h2>
                             <ul>
-                                <li><a href="">LOC</a>
-                                <li><a href="">Issues</a>
+                                <li><a href="Inspection/Framework/phploc.log">LOC</a>
+                                <li><a href="https://github.com/Orange-Management/phpOMS/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
                             <div class="tcenter"><img src="app/img/calendar.svg" width="30%"></div>
                             <h1>jsOMS</h1>
-                            <h2>Tests</h2>
+                            <p>Not yet implemented</p>
                             <ul>
-                                <li><a href="">PhpUnit</a>
-                                <li><a href="">Php Coverage</a>
-                                <li><a href="">Php Linting</a>
-                            </ul>
-                            <h2>Style</h2>
-                            <ul>
-                                <li><a href="">PhpStrictTypes</a>
-                                <li><a href="">PhpCS</a>
-                                <li><a href="">PhpStan</a>
-                                <li><a href="">Phan</a>
-                            </ul>
-                            <h2>Other</h2>
-                            <ul>
-                                <li><a href="">LOC</a>
-                                <li><a href="">Issues</a>
+                                <li><a href="https://github.com/Orange-Management/jsOMS/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
@@ -93,21 +80,22 @@
                             <h1>Application</h1>
                             <h2>Tests</h2>
                             <ul>
-                                <li><a href="">PhpUnit</a>
-                                <li><a href="">Php Coverage</a>
-                                <li><a href="">Php Linting</a>
+                                <li><a href="Inspection/Test/Php/phpunit.log">PhpUnit</a>
+                                <li><a href="Inspection/Test/Php/index.html">PhpUnit Report Html</a>
+                                <li><a href="Inspection/Test/Php/coverage/Web/index.html">Php Coverage</a>
+                                <li><a href="Inspection/Web/linting/linting_php.log">Php Linting</a>
                             </ul>
                             <h2>Style</h2>
                             <ul>
-                                <li><a href="">PhpStrictTypes</a>
-                                <li><a href="">PhpCS</a>
-                                <li><a href="">PhpStan</a>
-                                <li><a href="">Phan</a>
+                                <li><a href="Inspection/Web/strict_missing_php.log">PhpStrictTypes</a>
+                                <li><a href="Inspection/Web/phpcs.log">PhpCS</a>
+                                <li><a href="Inspection/Web/phpstan.log">PhpStan</a>
+                                <li><a href="Inspection/Web/phan.log">Phan</a>
                             </ul>
                             <h2>Other</h2>
                             <ul>
-                                <li><a href="">LOC</a>
-                                <li><a href="">Issues</a>
+                                <li><a href="Inspection/Web/phploc.log">LOC</a>
+                                <li><a href="https://github.com/Orange-Management/Orange-Management/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
@@ -115,109 +103,58 @@
                             <h1>Modules</h1>
                             <h2>Tests</h2>
                             <ul>
-                                <li><a href="">PhpUnit</a>
-                                <li><a href="">Php Coverage</a>
-                                <li><a href="">Php Linting</a>
+                                <li><a href="Inspection/Test/Php/phpunit.log">PhpUnit</a>
+                                <li><a href="Inspection/Test/Php/index.html">PhpUnit Report Html</a>
+                                <li><a href="Inspection/Test/Php/coverage/Modules/index.html">Php Coverage</a>
+                                <li><a href="Inspection/Modules/linting/linting_php.log">Php Linting</a>
                             </ul>
                             <h2>Style</h2>
                             <ul>
-                                <li><a href="">PhpStrictTypes</a>
-                                <li><a href="">PhpCS</a>
-                                <li><a href="">PhpStan</a>
-                                <li><a href="">Phan</a>
+                                <li><a href="Inspection/Modules/strict_missing_php.log">PhpStrictTypes</a>
+                                <li><a href="Inspection/Modules/phpcs.log">PhpCS</a>
+                                <li><a href="Inspection/Modules/phpstan.log">PhpStan</a>
+                                <li><a href="Inspection/Modules/phan.log">Phan</a>
                             </ul>
                             <h2>Other</h2>
                             <ul>
-                                <li><a href="">LOC</a>
-                                <li><a href="">Issues</a>
+                                <li><a href="Inspection/Modules/phploc.log">LOC</a>
+                                <li><a href="https://github.com/Orange-Management/Modules/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
                             <div class="tcenter"><img src="app/img/calendar.svg" width="30%"></div>
                             <h1>cssOMS</h1>
-                            <h2>Tests</h2>
-                            <ul>
-                                <li><a href="Inspection/Test/Php/phpunit.log">PhpUnit</a>
-                                <li><a href="">Php Coverage</a>
-                                <li><a href="">Php Linting</a>
-                            </ul>
-                            <h2>Style</h2>
-                            <ul>
-                                <li><a href="">PhpStrictTypes</a>
-                                <li><a href="">PhpCS</a>
-                                <li><a href="">PhpStan</a>
-                                <li><a href="">Phan</a>
-                            </ul>
+                            <p>Not yet implemented</p>
                             <h2>Other</h2>
                             <ul>
-                                <li><a href="">LOC</a>
-                                <li><a href="">Issues</a>
+                                <li><a href="https://github.com/Orange-Management/cssOMS/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
                             <div class="tcenter"><img src="app/img/calendar.svg" width="30%"></div>
                             <h1>Documentation</h1>
-                            <h2>Tests</h2>
-                            <ul>
-                                <li><a href="">PhpUnit</a>
-                                <li><a href="">Php Coverage</a>
-                                <li><a href="">Php Linting</a>
-                            </ul>
-                            <h2>Style</h2>
-                            <ul>
-                                <li><a href="">PhpStrictTypes</a>
-                                <li><a href="">PhpCS</a>
-                                <li><a href="">PhpStan</a>
-                                <li><a href="">Phan</a>
-                            </ul>
+                            <p>Not yet implemented</p>
                             <h2>Other</h2>
                             <ul>
-                                <li><a href="">LOC</a>
-                                <li><a href="">Issues</a>
+                                <li><a href="https://github.com/Orange-Management/Documentation/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
                             <div class="tcenter"><img src="app/img/calendar.svg" width="30%"></div>
                             <h1>Developer-Guide</h1>
-                            <h2>Tests</h2>
-                            <ul>
-                                <li><a href="">PhpUnit</a>
-                                <li><a href="">Php Coverage</a>
-                                <li><a href="">Php Linting</a>
-                            </ul>
-                            <h2>Style</h2>
-                            <ul>
-                                <li><a href="">PhpStrictTypes</a>
-                                <li><a href="">PhpCS</a>
-                                <li><a href="">PhpStan</a>
-                                <li><a href="">Phan</a>
-                            </ul>
+                            <p>Not yet implemented</p>
                             <h2>Other</h2>
                             <ul>
-                                <li><a href="">LOC</a>
-                                <li><a href="">Issues</a>
+                                <li><a href="https://github.com/Orange-Management/Developer-Guide/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
                             <div class="tcenter"><img src="app/img/calendar.svg" width="30%"></div>
                             <h1>Build</h1>
-                            <h2>Tests</h2>
-                            <ul>
-                                <li><a href="">PhpUnit</a>
-                                <li><a href="">Php Coverage</a>
-                                <li><a href="">Php Linting</a>
-                            </ul>
-                            <h2>Style</h2>
-                            <ul>
-                                <li><a href="">PhpStrictTypes</a>
-                                <li><a href="">PhpCS</a>
-                                <li><a href="">PhpStan</a>
-                                <li><a href="">Phan</a>
-                            </ul>
+                            <p>Not yet implemented</p>
                             <h2>Other</h2>
                             <ul>
-                                <li><a href="">LOC</a>
-                                <li><a href="">Issues</a>
+                                <li><a href="https://github.com/Orange-Management/Build/issues">Issues</a>
                             </ul>
                         </div>
                     </div>
