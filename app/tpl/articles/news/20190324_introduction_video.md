@@ -10,6 +10,6 @@ Topics which are covered in this video are:
 * What is the current status of the project?
 * Future episodes
 
-The introduction video also got added to our newly patreon page which you can find at: https://www.patreon.com/orange_management
+The introduction video also got added to our newly created patreon page which you can find at: https://www.patreon.com/orange_management or use the donate button at the bottom of the page.
 
 For the patreon page we intend to add merchandise at a later time once the beta version or first release candidate is released. If you want to support us feel free to do so we are happy about every contribution.
