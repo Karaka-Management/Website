@@ -26,7 +26,7 @@
                             <div class="box1 box">
                                 <div class="tcenter"><img src="app/img/calendar.svg" width="60%"></div>
                                 <h1>Manage your Business</h1>
-                                <p>Orange-Management provides all the tools you need in order to manage your business and handle it's activiteies in one eco-system. You and your team will be able to focus on the importent things allowing your business to grow.</p>
+                                <p>Orange-Management provides all the tools you need in order to manage your business and handle it's activities in one eco-system. You and your team will be able to focus on the important things allowing your business to grow.</p>
                             </div>
                             <div class="box1 box">
                                 <div class="tcenter"><img src="app/img/tablet.png" width="55%"></div>
@@ -138,7 +138,7 @@
             <div class="block block3">
                 <div class="floater">
                     <h1>Orange-Management</h1>
-                    <p>With Orange-Management you have one partner who can provide all the tools and software solutions you are used to. Our solutions can be used independently from each other or fully integrated with other solutions we provide. By choosing Orange-Management as your partner you'll be able to adjust your software based on the changes in your requirements without worring about integration and workflow optimization. </p>
+                    <p>With Orange-Management you have one partner who can provide all the tools and software solutions you are used to. Our solutions can be used independently from each other or fully integrated with other solutions we provide. By choosing Orange-Management as your partner you'll be able to adjust your software based on the changes in your requirements without worrying about integration and workflow optimization. </p>
 
                     <div class="tcenter spacer"><img src="app/img/flow-tree-combined.svg" width="80%"></div>
 

@@ -6,6 +6,7 @@
                 <div>
                     <p>Orange-Management was founded in XXX by Dennis Eichhorn and provides smart business solutions for every company size. Managing and performing daily business tasks has naver been easier.</p>
                     <p>Our software is user friendly, performant, affordable and just works.</p>
+                    <a href="https://www.patreon.com/bePatron?u=18592707" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
                 </div>
             </div>
             <div>
