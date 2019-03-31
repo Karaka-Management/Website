@@ -18,5 +18,13 @@ class LiveController
     public function viewHome(RequestAbstract $request, ResponseAbstract $response, $data = null)
     {
         $response->get('Content')->setTemplate('/app/tpl/live');
+
+        $live     = \json_decode(\file_get_contents(__DIR__ . '/../tpl/videos/live.json'), true);
+        $tutorial = \json_decode(\file_get_contents(__DIR__ . '/../tpl/videos/tutorial.json'), true);
+        $vlog     = \json_decode(\file_get_contents(__DIR__ . '/../tpl/videos/vlog.json'), true);
+
+        $response->get('Content')->setData('live', $live);
+        $response->get('Content')->setData('tutorial', $tutorial);
+        $response->get('Content')->setData('vlog', $vlog);
     }
 }
