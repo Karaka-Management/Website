@@ -63,6 +63,7 @@
                             </ul>
                             <h2>Other</h2>
                             <ul>
+                                <li><a href="Inspection/Test/Php/DocBlock/">Documentation</a>
                                 <li><a href="Inspection/Framework/phploc.log">LOC</a>
                                 <li><a href="https://github.com/Orange-Management/phpOMS/issues">Issues</a>
                             </ul>
@@ -84,6 +85,7 @@
                                 <li><a href="Inspection/Test/Php/index.html">PhpUnit Report Html</a>
                                 <li><a href="Inspection/Test/Php/coverage/Web/index.html">Php Coverage</a>
                                 <li><a href="Inspection/Web/linting/linting_php.log">Php Linting</a>
+                                <li><a href="Inspection/Test/ReportExternal/">Test Report</a>
                             </ul>
                             <h2>Style</h2>
                             <ul>
