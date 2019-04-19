@@ -33,7 +33,7 @@ class Application extends ApplicationAbstract
 
         $dispatched = $this->dispatcher->dispatch(
             $this->router->route(
-                $request->getUri()->getRoute(),
+                $request,
                 $request->getRouteVerb()
             ),
             $request,
