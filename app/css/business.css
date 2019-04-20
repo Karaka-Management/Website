@@ -11,6 +11,7 @@ header img {
 
 body > header .img {
     position: relative;
+    margin-left: 70px;
 }
 
 #header-content {
@@ -23,7 +24,6 @@ body > header .img {
 
 body > header .box {
     max-width: 500px;
-    margin-right: 70px;
 }
 
 body > header .box h1 {
