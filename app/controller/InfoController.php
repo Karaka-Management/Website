@@ -34,7 +34,7 @@ class InfoController
         $view->setTemplate('/app/tpl/info_news');
 
         $articles = Directory::list(__DIR__ . '/../tpl/articles/', '.*\.md$');
-        usort($articles, function($a, $b) {
+        \usort($articles, function($a, $b) {
             $a = \explode('/', $a)[1];
             $b = \explode('/', $b)[1];
             return \strcmp($a, $b) > 0 ? -1 : 1;
