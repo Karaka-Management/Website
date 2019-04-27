@@ -18,7 +18,7 @@
                     <div id="content">
                         <?php $dispatch = $this->getData('dispatch') ?? [];
                         foreach ($dispatch as $view) {
-                            if ($view instanceOf \phpOMS\Contract\RenderableInterface) {
+                            if ($view instanceof \phpOMS\Contract\RenderableInterface) {
                                 echo $view->render();
                             }
                         }

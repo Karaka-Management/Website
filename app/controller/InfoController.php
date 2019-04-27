@@ -3,12 +3,12 @@ declare(strict_types=1);
 
 namespace app\controller;
 
+use phpOMS\ApplicationAbstract;
 use phpOMS\Message\RequestAbstract;
 use phpOMS\Message\ResponseAbstract;
 use phpOMS\System\File\Local\Directory;
 use phpOMS\Utils\Parser\Markdown\Markdown;
 use phpOMS\Views\View;
-use phpOMS\ApplicationAbstract;
 
 class InfoController
 {

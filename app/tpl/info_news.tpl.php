@@ -1,4 +1,5 @@
-<?php $articles = $this->getData('articles');
+<?php declare(strict_types=1);
+$articles = $this->getData('articles');
 foreach ($articles as $article) : ?>
     <article>
         <h1><a href="/info/article/<?= \urlencode($article['path'] ?? '') ?>/<?= \urlencode($article['name'] ?? '') ?>"><?= $article['headline'] ?? '' ?></a></h1>

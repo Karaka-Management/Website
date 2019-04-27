@@ -3,15 +3,13 @@ declare(strict_types=1);
 
 namespace app;
 
-use phpOMS\Log\FileLogger;
+use phpOMS\ApplicationAbstract;
+use phpOMS\Dispatcher\Dispatcher;
 use phpOMS\Message\Http\Request;
 use phpOMS\Message\Http\Response;
+use phpOMS\Router\Router;
 use phpOMS\Uri\UriFactory;
 use phpOMS\Views\View;
-use phpOMS\Router\Router;
-use phpOMS\Dispatcher\Dispatcher;
-use phpOMS\ApplicationAbstract;
-use phpOMS\Autoloader;
 
 class Application extends ApplicationAbstract
 {

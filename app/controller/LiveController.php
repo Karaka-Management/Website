@@ -3,10 +3,9 @@ declare(strict_types=1);
 
 namespace app\controller;
 
+use phpOMS\ApplicationAbstract;
 use phpOMS\Message\RequestAbstract;
 use phpOMS\Message\ResponseAbstract;
-use phpOMS\Views\View;
-use phpOMS\ApplicationAbstract;
 
 class LiveController
 {
@@ -15,7 +14,7 @@ class LiveController
 
     }
 
-    public function viewHome(RequestAbstract $request, ResponseAbstract $response, $data = null)
+    public function viewHome(RequestAbstract $request, ResponseAbstract $response, $data = null): void
     {
         $response->get('Content')->setTemplate('/app/tpl/live');
 

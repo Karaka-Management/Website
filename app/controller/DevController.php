@@ -3,12 +3,11 @@ declare(strict_types=1);
 
 namespace app\controller;
 
+use phpOMS\ApplicationAbstract;
 use phpOMS\Message\RequestAbstract;
 use phpOMS\Message\ResponseAbstract;
 use phpOMS\System\File\Local\Directory;
 use phpOMS\Utils\Parser\Markdown\Markdown;
-use phpOMS\Views\View;
-use phpOMS\ApplicationAbstract;
 
 class DevController
 {
@@ -17,7 +16,7 @@ class DevController
 
     }
 
-    public function viewHome(RequestAbstract $request, ResponseAbstract $response, $data = null)
+    public function viewHome(RequestAbstract $request, ResponseAbstract $response, $data = null): void
     {
         $response->get('Content')->setTemplate('/app/tpl/dev');
 
@@ -112,7 +111,7 @@ class DevController
         return $guides;
     }
 
-    public function viewGuide(RequestAbstract $request, ResponseAbstract $response, $data = null)
+    public function viewGuide(RequestAbstract $request, ResponseAbstract $response, $data = null): void
     {
         $response->get('Content')->setTemplate('/app/tpl/dev_guide');
 
@@ -130,7 +129,7 @@ class DevController
         $response->get('Content')->setData('nav', Markdown::parse($nav));
     }
 
-    public function viewPost(RequestAbstract $request, ResponseAbstract $response, $data = null)
+    public function viewPost(RequestAbstract $request, ResponseAbstract $response, $data = null): void
     {
         $response->get('Content')->setTemplate('/app/tpl/dev_post');
 
