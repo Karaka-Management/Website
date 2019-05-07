@@ -58,6 +58,11 @@ article p {
     line-height: 1.5rem;
 }
 
+article img {
+    display: block;
+    margin: 0 auto;
+}
+
 article ul, article ol {
     margin: 1rem 1rem 1rem 2rem;
 }
