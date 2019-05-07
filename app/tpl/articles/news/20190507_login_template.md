@@ -1,6 +1,6 @@
 # Login Screen
 
-The new login screen design is drafted and partially implemented. The new design uses a very similar color schema as the website. In the future the whole website design will follow the same color schema. The implementation process will be done over the course of multiple month.
+The new login screen design is drafted and partially implemented. The new design uses much more similar color schema as the website. In the future the whole website design will follow the same color schema. The implementation process will be done over the course of multiple month.
 
 ![Login Screen](app/tpl/articles/news/img/20190507_login_screen.gif)
 
