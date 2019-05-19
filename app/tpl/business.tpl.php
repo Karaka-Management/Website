@@ -1,8 +1,10 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
     <head>
         <title>Orange-Management - Business</title>
         <?php include __DIR__ . '/head.tpl.php'; ?>
         <link rel="stylesheet" href="app/css/business.css">
+        <meta name="description" content="Orange Management business application for ERP, CRM, Finance, Intranet, Office and more."/>
     </head>
     <body>
         <header>

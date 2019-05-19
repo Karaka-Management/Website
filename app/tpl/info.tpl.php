@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
     <head>
         <title>Orange-Management - Info</title>
         <?php include __DIR__ . '/head.tpl.php'; ?>
