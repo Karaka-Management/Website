@@ -3,7 +3,7 @@
         <nav>
             <span id="company-logo"><img alt="logo" src="/app/img/logo.png"></span>
             <span id="company"><a href="/">Orange-Management</a></span>
-            <ul>
+            <ul role="navigation">
                 <li><a href="/">Home</a></li>
                 <li><a href="/solutions">Solutions</a></li>
                 <li><a href="/services">Services</a></li>
