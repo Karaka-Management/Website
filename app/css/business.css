@@ -52,7 +52,7 @@ body > header .img:after {
 
 #content-header-container {
     position: relative;
-    top: -110;
+    top: -110px;
     color: rgba(0, 0, 0, 0.95);
 }
 
