@@ -6,10 +6,10 @@
         "video": "https://www.youtube.com/watch?v=NwfW6-RQaVg"
     },
     {
-        "title": "Episode 1 - What is Orange-Management",
-        "description": "Introduction video to the Orange-Management project covering topics such as key goals, how to achieve them and current status.",
-        "splash": "vlog_1.jpg",
-        "video": "https://www.youtube.com/watch?v=NwfW6-RQaVg"
+        "title": "Episode 2 - Orange Management backend",
+        "description": "Introduction video to the Orange-Management php framework phpOMS by implementing a very simple application.",
+        "splash": "vlog_2.png",
+        "video": "https://www.youtube.com/watch?v=Q1m3iuxgbXU"
     },
     {
         "title": "Episode 1 - What is Orange-Management",
