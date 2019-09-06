@@ -101,7 +101,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tcenter"><button class="large">More</button></div>
+                        <div class="tcenter"><a class="large" href="/solutions">More</button></a>
                     </div>
                 </div>
             </div>
@@ -120,19 +120,19 @@
                             <div class="tcenter"><img alt="cloud" src="app/img/cloud-purple.svg" width="80%"></div>
                             <h1>Installation</h1>
                             <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
-                            <div class="tright"><a class="content" href="">More</a></div>
+                            <div class="tright"><a class="content" href="/info?page=setup/server">More</a></div>
                         </div>
                         <div class="box1">
                             <div class="tcenter"><img alt="books" src="app/img/book-pile-purple.svg" width="40%"></div>
                             <h1>Documentation</h1>
                             <p>The extensive documentation helps you with learning all features of our software, how to administrate and customize it.</p>
-                            <div class="tright"><a class="content" href="">More</a></div>
+                            <div class="tright"><a class="content" href="/info?page=README">More</a></div>
                         </div>
                         <div class="box1">
                             <div class="tcenter"><img alt="workflow" src="app/img/workflow-purple.svg" width="40%"></div>
                             <h1>Modules</h1>
                             <p>The application is built on various modules allowing full customization and control over the features you need and investments you want to do.</p>
-                            <div class="tright"><a class="content" href="">More</a></div>
+                            <div class="tright"><a class="content" href="/shop">More</a></div>
                         </div>
                     </div>
                 </div>
