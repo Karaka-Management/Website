@@ -141,6 +141,7 @@ body > header .img:after {
 
 .block2 {
     background: var(--block2-background);
+    color: rgba(0, 0, 0, 0.95);
 }
 
 .block2 .flex {

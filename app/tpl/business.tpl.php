@@ -105,6 +105,7 @@
                     </div>
                 </div>
             </div>
+        </div>
             <div class="block block2">
                 <div class="floater">
                     <span class="box">
@@ -137,6 +138,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="block block3">
                 <div class="floater">
                     <h1>Orange-Management</h1>
