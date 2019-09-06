@@ -101,7 +101,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tcenter"><a class="large" href="/solutions">More</button></a>
+                        <div class="tcenter"><a class="large button" href="/solutions">More</button></a>
                     </div>
                 </div>
             </div>
