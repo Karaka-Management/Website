@@ -13,3 +13,5 @@ The local tools and scripts are still more comprehensive but the build automatio
 * Code Style Checks
 
 The future goal is to add more automated steps like the deployment to our public test server, documentation generation and most importantly automatic generation of update packages for the users.
+
+Build Automation: https://github.com/Orange-Management/Orange-Management/actions
