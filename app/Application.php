@@ -7,7 +7,7 @@ use phpOMS\ApplicationAbstract;
 use phpOMS\Dispatcher\Dispatcher;
 use phpOMS\Message\Http\Request;
 use phpOMS\Message\Http\Response;
-use phpOMS\Router\Router;
+use phpOMS\Router\WebRouter;
 use phpOMS\Uri\UriFactory;
 use phpOMS\Views\View;
 
@@ -24,7 +24,7 @@ class Application extends ApplicationAbstract
         $pageView->setTemplate('/app/tpl/business');
         $response->set('Content', $pageView);
 
-        $this->router = new Router();
+        $this->router = new WebRouter();
         $this->router->importFromFile(__DIR__ . '/Routes.php');
 
         $this->dispatcher = new Dispatcher($this);
