@@ -60,7 +60,6 @@
                                 <li><a href="Inspection/Framework/strict_missing_php.log">PhpStrictTypes</a>
                                 <li><a href="Inspection/Framework/phpcs.log">PhpCS</a>
                                 <li><a href="Inspection/Framework/phpstan.log">PhpStan</a>
-                                <li><a href="Inspection/Framework/phan.log">Phan</a>
                             </ul>
                             <h2>Other</h2>
                             <ul>
@@ -93,7 +92,6 @@
                                 <li><a href="Inspection/Web/strict_missing_php.log">PhpStrictTypes</a>
                                 <li><a href="Inspection/Web/phpcs.log">PhpCS</a>
                                 <li><a href="Inspection/Web/phpstan.log">PhpStan</a>
-                                <li><a href="Inspection/Web/phan.log">Phan</a>
                             </ul>
                             <h2>Other</h2>
                             <ul>
@@ -116,7 +114,6 @@
                                 <li><a href="Inspection/Modules/strict_missing_php.log">PhpStrictTypes</a>
                                 <li><a href="Inspection/Modules/phpcs.log">PhpCS</a>
                                 <li><a href="Inspection/Modules/phpstan.log">PhpStan</a>
-                                <li><a href="Inspection/Modules/phan.log">Phan</a>
                             </ul>
                             <h2>Other</h2>
                             <ul>
