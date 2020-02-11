@@ -4,13 +4,10 @@ declare(strict_types=1);
 namespace app\controller;
 
 use phpOMS\ApplicationAbstract;
-use phpOMS\Message\Http\Request;
-use phpOMS\Message\Http\Rest;
 use phpOMS\Message\RequestAbstract;
 use phpOMS\Message\ResponseAbstract;
 use phpOMS\System\File\Local\Directory;
 use phpOMS\Utils\Parser\Markdown\Markdown;
-use phpOMS\Uri\Http;
 
 class DevController
 {

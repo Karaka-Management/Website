@@ -5,8 +5,8 @@ namespace app;
 
 use phpOMS\ApplicationAbstract;
 use phpOMS\Dispatcher\Dispatcher;
-use phpOMS\Message\Http\Request;
-use phpOMS\Message\Http\Response;
+use phpOMS\Message\Http\HttpRequest;
+use phpOMS\Message\Http\HttpResponse;
 use phpOMS\Router\WebRouter;
 use phpOMS\Uri\UriFactory;
 use phpOMS\Views\View;
@@ -55,9 +55,9 @@ class Application extends ApplicationAbstract
         \mb_internal_encoding('UTF-8');
     }
 
-    private function initRequest() : Request
+    private function initRequest() : HttpRequest
     {
-        $request = Request::createFromSuperglobals();
+        $request = HttpRequest::createFromSuperglobals();
 
         $request->createRequestHashs(0);
         $request->getUri()->setRootPath('/');
@@ -66,9 +66,9 @@ class Application extends ApplicationAbstract
         return $request;
     }
 
-    private function initResponse(Request $request) : Response
+    private function initResponse(HttpRequest $request) : HttpResponse
     {
-        $response = new Response();
+        $response = new HttpResponse();
         $response->getHeader()->set('content-type', 'text/html; charset=utf-8');
         $response->getHeader()->set('x-xss-protection', '1; mode=block');
         $response->getHeader()->set('x-content-type-options', 'nosniff');
