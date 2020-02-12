@@ -40,9 +40,7 @@ class Application extends ApplicationAbstract
         );
         $pageView->addData('dispatch', $dispatched);
 
-        /** @var \phpOMS\Message\Http\Header $header */
-        $header = $response->getHeader();
-        $header->push();
+        $response->getHeader()->push();
 
         echo $response->getBody();
     }
