@@ -48,7 +48,7 @@
                 <div class="floater flex">
                     <div class="box">
                         <h1>Setup</h1>
-                        <p>If you choose to do the hosting of the Orange-Management application on your own servers or PC we can support you live with the setup process if want to by installing the software on your server or PC.</p>
+                        <p>If you choose to do the hosting of the Orange-Management application on your own servers or PC we can support you live with the setup process if you want to, by installing the software on your server or PC.</p>
 
                         <p>Price: $X.<p>
 

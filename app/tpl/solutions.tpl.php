@@ -16,44 +16,44 @@
                         <h1>Packages</h1>
                         <div class="flex section">
                             <div class="box box2">
-                                <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
+                                <div class="tcenter"><img src="app/img/enterprise.svg" width="21%"></div>
                                 <h1>ERP</h1>
                                 <p>In the ERP package we include a billing system for writing invoices, customer, supplier and article management as well as warehousing.</p>
                             </div>
 
                             <div class="box box2">
-                                <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
+                                <div class="tcenter"><img src="app/img/figure-group.svg" width="20%"></div>
                                 <h1>CRM</h1>
                                 <p>The CRM package includes analysis tools for your customers and sales. You'll be able to manage customer groups and store additional information such as documents, notes, customer communication etc.</p>
                             </div>
 
                             <div class="box box2">
-                                <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
+                                <div class="tcenter"><img src="app/img/money_paper.svg" width="17%"></div>
                                 <h1>Finance</h1>
                                 <p>The Finance package allows you to book invoices (receivable/payable) and manage your accounting such as income statement & balance.</p>
                             </div>
 
                             <div class="box box2">
-                                <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
+                                <div class="tcenter"><img src="app/img/paper_checkmarks.svg" width="12%"></div>
                                 <h1>Office</h1>
                                 <p>With the Office package you can create text documents, spreadsheets and create presentations. Further features are messaging (e.g. email) a calender and task management for organizing your work.</p>
                             </div>
                         </div>
                         <div class="flex section">
                             <div class="box box2">
-                                <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
+                                <div class="tcenter"><img src="app/img/pc_text.svg" width="23%"></div>
                                 <h1>CMS</h1>
                                 <p>Creating and managing a website becomes very easy with the CMS package. We provide tools to create individual pages and manage their content.</p>
                             </div>
 
                             <div class="box box2">
-                                <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
+                                <div class="tcenter"><img src="app/img/report.svg" width="23%"></div>
                                 <h1>Analytic</h1>
                                 <p>The Analytic package provides detailed information of your business such as detailed finance analysis, customizable reports and your general business activities.</p>
                             </div>
 
                             <div class="box box2">
-                                <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
+                                <div class="tcenter"><img src="app/img/wrench_screwdriver.svg" width="19%"></div>
                                 <h1>Production</h1>
                                 <p>With the Production package you can create and manage production processes for production scheduling, manufacturing new products and manage production costs.</p>
                             </div>
@@ -87,13 +87,13 @@
                             </div>
 
                             <div class="box box2">
-                                <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
+                                <div class="tcenter"><img src="app/img/modules.svg" width="17%"></div>
                                 <h1>Modular</h1>
                                 <p>Thanks to the application structure it's very easy to extend and adjust the functionality to your needs for a maximum amount of flexibility according to your requirements. Other benefits are cost efficiency and solutions for specific problems.</p>
                             </div>
 
                             <div class="box box2">
-                                <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
+                                <div class="tcenter"><img src="app/img/workflow-purple.svg" width="15%"></div>
                                 <h1>Seamless</h1>
                                 <p>Our different modules and features are designed so that they can be used individually or in combination with other modules giving the user one application instead of many individual tools that don't harmonize with each other..</p>
                             </div>
@@ -149,7 +149,7 @@
                             </div>
 
                             <div class="box box2">
-                                <div class="tcenter"><img src="app/img/cloud-purple.svg" width="25%"></div>
+                                <div class="tcenter"><img src="app/img/tablet.svg" width="20%"></div>
                                 <h1>User & Group Permissions</h1>
                                 <p>Users and Groups can have individual permission settings and configurations. Groups also help with organizing users and managing them in bulks.</p>
                             </div>

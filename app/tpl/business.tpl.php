@@ -31,7 +31,7 @@
                                 <p>Orange-Management provides all the tools you need in order to manage your business and handle it's activities in one eco-system. You and your team will be able to focus on the important things allowing your business to grow.</p>
                             </div>
                             <div class="box1 box">
-                                <div class="tcenter"><img alt="tablet" src="app/img/tablet.png" width="55%"></div>
+                                <div class="tcenter"><img alt="devices" src="app/img/devices.svg" width="85%"></div>
                                 <h1>Unlock all Platforms</h1>
                                 <p>Use the Orange-Management application from every platform from every place. You can collaborate with your team, no matter if you use cellphone, tablet or PC and have full control over everything.</p>
                                 <p></p>
@@ -130,7 +130,7 @@
                             <div class="tright"><a class="content" href="/info?page=README">More</a></div>
                         </div>
                         <div class="box1">
-                            <div class="tcenter"><img alt="workflow" src="app/img/workflow-purple.svg" width="40%"></div>
+                            <div class="tcenter"><img alt="workflow" src="app/img/modules.svg" width="45%"></div>
                             <h1>Modules</h1>
                             <p>The application is built on various modules allowing full customization and control over the features you need and investments you want to do.</p>
                             <div class="tright"><a class="content" href="/shop">More</a></div>
