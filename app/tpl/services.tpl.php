@@ -23,14 +23,14 @@
                         <button class="large">More</button>
                     </div>
                     <div class="box">
-                        <img src="app/img/cloud-purple.svg" width="75%">
+                        <img src="app/img/undraw_things_to_say_ewwb.svg" width="75%">
                     </div>
                 </div>
             </div>
             <div class="block block2">
                 <div class="floater flex">
                     <div class="box">
-                        <img src="app/img/cloud-purple.svg" width="75%">
+                        <img src="app/img/undraw_server_cluster_jwwq.svg" width="75%">
                     </div>
                     <div class="box">
                         <h1>Hosting</h1>
@@ -55,14 +55,14 @@
                         <button class="large">More</button>
                     </div>
                     <div class="box">
-                        <img src="app/img/cloud-purple.svg" width="75%">
+                        <img src="app/img/undraw_building_blocks_n0nc.svg" width="75%">
                     </div>
                 </div>
             </div>
             <div class="block block1">
                 <div class="floater flex">
                     <div class="box">
-                        <img src="app/img/cloud-purple.svg" width="75%">
+                        <img src="app/img/undraw_heavy_box_agqi.svg" width="75%">
                     </div>
                     <div class="box">
                         <h1>Migration</h1>
@@ -85,14 +85,14 @@
                         <button class="large">More</button>
                     </div>
                     <div class="box">
-                        <img src="app/img/cloud-purple.svg" width="75%">
+                        <img src="app/img/undraw_bug_fixing_oc7a.svg" width="75%">
                     </div>
                 </div>
             </div>
             <div class="block block3">
                 <div class="floater flex">
                     <div class="box">
-                        <img src="app/img/cloud-purple.svg" width="75%">
+                        <img src="app/img/undraw_content_vbqo.svg" width="75%">
                     </div>
                     <div class="box">
                         <h1>Customization</h1>
@@ -115,7 +115,7 @@
                         <button class="large">More</button>
                     </div>
                     <div class="box">
-                        <img src="app/img/cloud-purple.svg" width="75%">
+                        <img src="app/img/undraw_server_q2pb.svg" width="75%">
                     </div>
                 </div>
             </div>
