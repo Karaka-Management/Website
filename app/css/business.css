@@ -233,3 +233,9 @@ body > header .img:after {
         -ms-transform:  translate(0px,0px)  ;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .block1 .box.center {
+        display: none;
+    }
+}
