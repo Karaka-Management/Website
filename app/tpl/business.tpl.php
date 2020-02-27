@@ -72,7 +72,7 @@
                                 </div>
                             </div>
                             <div class="box center">
-                                    <img alt="grow" width="90%" src="app/img/undraw_completed_ngx6.svg">
+                                    <img alt="grow" width="90%" loading="lazy" src="app/img/undraw_completed_ngx6.svg">
                             </div>
                             <div class="box right">
                                 <div class="flex">
@@ -114,19 +114,19 @@
                             <p>Expand your features as your requirements change and your business grows with a few clicks giving you flexibility and cost control.</p>
                         </div>
                         <div class="box1">
-                            <div class="tcenter"><img alt="cloud" src="app/img/undraw_app_installation_mbdv.svg" width="45%"></div>
+                            <div class="tcenter"><img alt="cloud" loading="lazy" src="app/img/undraw_app_installation_mbdv.svg" width="45%"></div>
                             <h1>Installation</h1>
                             <p>Our software can be installed on your home PC, your own company server, a web server managed by yourself or on our dedicated servers.</p>
                             <div class="tright"><a class="content" href="/info?page=setup/server">More</a></div>
                         </div>
                         <div class="box1">
-                            <div class="tcenter"><img alt="books" src="app/img/undraw_files1_9ool.svg" width="40%"></div>
+                            <div class="tcenter"><img alt="books" loading="lazy" src="app/img/undraw_files1_9ool.svg" width="40%"></div>
                             <h1>Documentation</h1>
                             <p>The extensive documentation helps you with learning all features of our software, how to administrate and customize it.</p>
                             <div class="tright"><a class="content" href="/info?page=README">More</a></div>
                         </div>
                         <div class="box1">
-                            <div class="tcenter"><img alt="workflow" src="app/img/undraw_solution_mindset_34bi.svg" width="55%"></div>
+                            <div class="tcenter"><img alt="workflow" loading="lazy" src="app/img/undraw_solution_mindset_34bi.svg" width="55%"></div>
                             <h1>Modules</h1>
                             <p>The application is built on various modules allowing full customization and control over the features you need and investments you want to do.</p>
                             <div class="tright"><a class="content" href="/shop">More</a></div>
@@ -140,7 +140,7 @@
                     <h1>Orange-Management</h1>
                     <p>With Orange-Management you have one partner who can provide all the tools and software solutions you are used to. Our solutions can be used independently from each other or fully integrated with other solutions we provide. By choosing Orange-Management as your partner you'll be able to adjust your software based on the changes in your requirements without worrying about integration and workflow optimization. </p>
 
-                    <div class="tcenter spacer"><img alt="flow tree" src="app/img/undraw_business_deal_cpi9.svg" width="60%"></div>
+                    <div class="tcenter spacer"><img alt="flow tree" loading="lazy" src="app/img/undraw_business_deal_cpi9.svg" width="60%"></div>
 
                     <p>We believe software should support a business in it's daily tasks and growth in a very efficient way without frustration. In order to achieve this we constantly take feedback from our customers and expand and improve our software solutions. Since we believe in our software and transparent business model you can see all our prices in our shop and live test parts of our application and it's modules in our demo application without any registration or inquiry.</p>
                 </div>
