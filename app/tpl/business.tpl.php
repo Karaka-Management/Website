@@ -26,18 +26,18 @@
                     <div class="floater">
                         <div class="flex">
                             <div class="box1 box">
-                                <div class="tcenter"><img alt="calendar" src="app/img/undraw_calendar_dutt.svg" width="60%"></div>
+                                <div class="tcenter"><img alt="calendar" loading="lazy" src="app/img/undraw_calendar_dutt.svg" width="60%"></div>
                                 <h1>Manage your Business</h1>
                                 <p>Orange-Management provides all the tools you need in order to manage your business and handle it's activities in one eco-system. You and your team will be able to focus on the important things allowing your business to grow.</p>
                             </div>
                             <div class="box1 box">
-                                <div class="tcenter"><img alt="devices" src="app/img/undraw_progressive_app_m9ms.svg" width="82%"></div>
+                                <div class="tcenter"><img alt="devices" loading="lazy" src="app/img/undraw_progressive_app_m9ms.svg" width="82%"></div>
                                 <h1>Unlock all Platforms</h1>
                                 <p>Use the Orange-Management application from every platform from every place. You can collaborate with your team, no matter if you use cellphone, tablet or PC and have full control over everything.</p>
                                 <p></p>
                             </div>
                             <div class="box1 box">
-                                <div class="tcenter"><img alt="report" src="app/img/undraw_visual_data_b1wx.svg" width="67%"></div>
+                                <div class="tcenter"><img alt="report" loading="lazy" src="app/img/undraw_visual_data_b1wx.svg" width="67%"></div>
                                 <h1>Comprehensive Insights</h1>
                                 <p>Gain full insights about every aspect of your business in easy to understand reports and analysis. Let Orange-Management help you with improving your workflows and business operations.</p>
                             </div>
