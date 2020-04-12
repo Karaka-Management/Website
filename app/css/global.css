@@ -44,6 +44,31 @@ a {
     color: var(--header-background);
 }
 
+pre {
+    border-radius: 3px;
+    padding: 1rem;
+    overflow-x: scroll;
+    counter-reset: line;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    margin: 1rem 0 1rem 0;
+    border: 1px solid #ddd;
+    border-left-color: rgb(221, 221, 221);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: 3px solid var(--header-background);
+    background: #f4f4f4;
+    line-height: 1.3rem;
+    font-size: .8rem;
+}
+
+:not(pre) > code {
+    color: var(--header-background);
+    font-style: italic;
+    font-family: monospace;
+}
+
 button, input[type=submit], .button {
     background-image: linear-gradient(var(--header-background-highlight), var(--header-background));
     border-radius: 2rem;
