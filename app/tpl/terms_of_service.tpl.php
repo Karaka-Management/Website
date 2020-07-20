@@ -26,7 +26,7 @@
                         <li>Third-party Social Media Service means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the SERVICE.</li>
                         <li>WEBSITE refers to orange-management.org (.net, .app, .service, .support, .email, .de, .solutions)</li>
                         <li>APPLICATION refers to all downloadable or installable content which can therfore be used on an a given DEVICE.</li>
-                        <li>You means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
+                        <li>You means the individual accessing or using the SERVICES, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
                     </ul>
                     
                     <h2>Acknowledgement</h2>
@@ -59,7 +59,7 @@
                     <p>Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.</p>
                 
                     <h2>Governing Law</h2>
-                    <p>The laws of the COUNTRY, excluding its conflicts of law rules, shall govern this TERMS and Your use of the SERVICE. Your use of the APPLICATION may also be subject to other local, state, national, or international laws.</p>
+                    <p>The laws of the COUNTRY, excluding its conflicts of law rules, shall govern these TERMS and Your use of the SERVICE. Your use of the APPLICATION may also be subject to other local, state, national, or international laws.</p>
                     <p>The ineffectiveness of one or more provisions of this agreement does not affect the validity of the others. Each party to these TERMS can in this case demand that a new valid provision be agreed which best achieves the economic purpose of the ineffective provision.</p>
                 
                     <h2>Dispute Resolution</h2>
@@ -71,6 +71,9 @@
                     <h2>Changes to these Terms</h2>
                     <p>We reserve the right, at Our sole discretion, to modify or replace these TERMS at any time. If a revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.</p>
                     <p>By continuing to access or use Our SERVICE after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the WEBSITE and the SERVICE.</p>
+                
+                    <h2>Contact</h2>
+                    <p>For questions regarding these TERMS please feel free to contact us at info@orange-management.email</p>
                 </div>
             </div>
         </main>
