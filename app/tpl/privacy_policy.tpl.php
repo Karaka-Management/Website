@@ -15,7 +15,7 @@
                     <p>This privacy policy ("POLICY") will help you understand how [name] ("us", "we", "our") uses and protects the data you provide to us when you visit and use Orange-Management ("website", "service" and "application").</p>
                     
                     <h2>Definitions</h2>
-                    <p>For the purposes of these TERMS:<p>
+                    <p>For the purposes of these POLICIES:<p>
 
                     <ul>
                         <li>AFFILIATED means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
@@ -23,7 +23,7 @@
                         <li>COMPANY (referred to as either "the Company", "We", "Us" or "Our" in this AGREEMENT) refers to Orange Management, Gartenstr. 26, 61206 Woellstadt.</li>
                         <li>DEVICE means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
                         <li>SERVICE refers to the Website</li>
-                        <li>TERMS or AGREEMENT mean these terms that form the entire agreement between You and the COMPANY regarding the use of the SERVICE.</li>
+                        <li>POLICY or AGREEMENT mean these policies that form the entire agreement between You and the COMPANY regarding the use of the SERVICE.</li>
                         <li>Third-party Social Media Service means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the SERVICE.</li>
                         <li>WEBSITE refers to orange-management.org (.net, .app, .service, .support, .email, .de, .solutions)</li>
                         <li>APPLICATION refers to all downloadable or installable content which can therfore be used on an a given DEVICE.</li>
