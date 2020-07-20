@@ -81,12 +81,6 @@ return [
             'verb' => RouteVerb::GET,
         ],
     ],
-    '^/security$' => [
-        [
-            'dest' => '\app\controller\GeneralController:viewSecurityStatement',
-            'verb' => RouteVerb::GET,
-        ],
-    ],
     '^/career$' => [
         [
             'dest' => '\app\controller\GeneralController:viewCareer',
