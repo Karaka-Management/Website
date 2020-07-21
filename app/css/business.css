@@ -169,10 +169,6 @@ body > header .img:after {
     -o-animation-iteration-count: 1;
     -o-transform-origin: 50% 50%;
     -o-animation-fill-mode:forwards; /*Not implemented yet*/
-    -ms-animation: slide-up-fade-in ease 1s;
-    -ms-animation-iteration-count: 1;
-    -ms-transform-origin: 50% 50%;
-    -ms-animation-fill-mode:forwards; /*IE 10+*/
 
     opacity: 0;
     opacity: 1\9;
@@ -220,17 +216,6 @@ body > header .img:after {
     100% {
         opacity:1;
         -o-transform:  translate(0px,0px)  ;
-    }
-}
-
-@-ms-keyframes slide-up-fade-in {
-    0% {
-        opacity:0;
-        -ms-transform:  translate(0px,40px)  ;
-    }
-    100% {
-        opacity:1;
-        -ms-transform:  translate(0px,0px)  ;
     }
 }
 
