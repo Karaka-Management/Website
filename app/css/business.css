@@ -208,17 +208,6 @@ body > header .img:after {
     }
 }
 
-@-o-keyframes slide-up-fade-in {
-    0% {
-        opacity:0;
-        -o-transform:  translate(0px,40px)  ;
-    }
-    100% {
-        opacity:1;
-        -o-transform:  translate(0px,0px)  ;
-    }
-}
-
 @media only screen and (max-width: 600px) {
     .block1 .box.center {
         display: none;
