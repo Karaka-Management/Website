@@ -113,8 +113,8 @@
 
                             <div class="box box2">
                                 <div class="tcenter"><img src="app/img/undraw_success_factors_fay0.svg" loading="lazy" width="35%"></div>
-                                <h1>Constant Improvments</h1>
-                                <p>Constant improvements are a core value which we integrate in our philosophy. User feedback is always appreciated, improvements and new features are constantly developed in order to allow you to handle your daily challenges.</p>
+                                <h1>Continuous Improvments</h1>
+                                <p>Continuous improvements are a core value which we integrate in our philosophy. User feedback is always appreciated, improvements and new features are constantly developed in order to allow you to handle your daily challenges.</p>
                             </div>
 
                             <div class="box box2">

@@ -29,11 +29,6 @@ class GeneralController
         $response->get('Content')->setTemplate('/app/tpl/privacy_policy');
     }
 
-    public function viewSecurityStatement(RequestAbstract $request, ResponseAbstract $response, $data = null): void
-    {
-        $response->get('Content')->setTemplate('/app/tpl/security_statement');
-    }
-
     public function viewStatus(RequestAbstract $request, ResponseAbstract $response, $data = null): void
     {
         $response->get('Content')->setTemplate('/app/tpl/status');
