@@ -219,6 +219,10 @@ main {
     margin: 5px 0 5px 0;
 }
 
+.block ul {
+    margin-left: 1rem;
+}
+
 .block ul p {
     margin: 0;
     padding: 0;
