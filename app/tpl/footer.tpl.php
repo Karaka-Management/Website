@@ -9,6 +9,13 @@
                 </div>
             </div>
             <div>
+                <h1>Social</h1>
+                <ul>
+                    <li><a href="https://twitter.com/orange_mgmt">Twitter</a>
+                    <li><a href="https://paypal.me/orangemgmt">PayPal</a>
+                </ul>
+            </div>
+            <div>
                 <h1>Other Pages</h1>
                 <ul>
                     <li><a href="/dev">Dev</a>
