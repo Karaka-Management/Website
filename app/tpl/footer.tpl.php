@@ -11,8 +11,8 @@
             <div>
                 <h1>Social</h1>
                 <ul>
-                    <li><a href="https://twitter.com/orange_mgmt">Twitter</a>
-                    <li><a href="https://paypal.me/orangemgmt">PayPal</a>
+                    <li><a href="https://twitter.com/orange_mgmt"><i class="fa fa-twitter"></i> Twitter</a>
+                    <li><a href="https://paypal.me/orangemgmt"><i class="fa fa-paypal"></i> PayPal</a>
                 </ul>
             </div>
             <div>
