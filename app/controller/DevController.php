@@ -29,7 +29,7 @@ class DevController
 
     private function getPostList() : array
     {
-        $posts = Directory::list(__DIR__ . '/../tpl/posts/', '.*\.md$');
+        $posts = Directory::list(__DIR__ . '/../tpl/posts/', '.*\.md$', true);
         \usort($posts, function($a, $b) {
             return \strcmp($a, $b) > 0 ? -1 : 1;
         });

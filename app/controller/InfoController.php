@@ -33,7 +33,7 @@ class InfoController
         $view = new View();
         $view->setTemplate('/app/tpl/info_news');
 
-        $articles = Directory::list(__DIR__ . '/../tpl/articles/', '.*\.md$');
+        $articles = Directory::list(__DIR__ . '/../tpl/articles/', '.*\.md$', true);
         \usort($articles, function($a, $b) {
             $a = \explode('/', $a)[1];
             $b = \explode('/', $b)[1];
