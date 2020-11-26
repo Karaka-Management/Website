@@ -31,7 +31,7 @@ class Application extends ApplicationAbstract
 
         $dispatched = $this->dispatcher->dispatch(
             $this->router->route(
-                $request->getUri()->getRoute(),
+                $request->uri->getRoute(),
                 null,
                 $request->getRouteVerb()
             ),
@@ -40,7 +40,7 @@ class Application extends ApplicationAbstract
         );
         $pageView->addData('dispatch', $dispatched);
 
-        $response->getHeader()->push();
+        $response->header->push();
 
         echo $response->getBody();
     }
@@ -58,8 +58,8 @@ class Application extends ApplicationAbstract
         $request = HttpRequest::createFromSuperglobals();
 
         $request->createRequestHashs(0);
-        $request->getUri()->setRootPath('/');
-        UriFactory::setupUriBuilder($request->getUri());
+        $request->uri->setRootPath('/');
+        UriFactory::setupUriBuilder($request->uri);
 
         return $request;
     }
@@ -67,14 +67,14 @@ class Application extends ApplicationAbstract
     private function initResponse(HttpRequest $request) : HttpResponse
     {
         $response = new HttpResponse();
-        $response->getHeader()->set('content-type', 'text/html; charset=utf-8');
-        $response->getHeader()->set('x-xss-protection', '1; mode=block');
-        $response->getHeader()->set('x-content-type-options', 'nosniff');
-        $response->getHeader()->set('x-frame-options', 'SAMEORIGIN');
-        $response->getHeader()->set('referrer-policy', 'same-origin');
+        $response->header->set('content-type', 'text/html; charset=utf-8');
+        $response->header->set('x-xss-protection', '1; mode=block');
+        $response->header->set('x-content-type-options', 'nosniff');
+        $response->header->set('x-frame-options', 'SAMEORIGIN');
+        $response->header->set('referrer-policy', 'same-origin');
 
         if ($request->isHttps()) {
-            $response->getHeader()->set('strict-transport-security', 'max-age=31536000');
+            $response->header->set('strict-transport-security', 'max-age=31536000');
         }
 
         return $response;
