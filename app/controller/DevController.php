@@ -133,8 +133,8 @@ class DevController
     {
         $response->get('Content')->setTemplate('/app/tpl/dev_post');
 
-        if (\file_exists(__DIR__ . '/../tpl/posts/' . $request->getUri()->getPathElement(2) . '.md')) {
-            $response->get('Content')->setData('markdown', Markdown::parse(\file_get_contents(__DIR__ . '/../tpl/posts/' . $request->getUri()->getPathElement(2) . '.md')));
+        if (\file_exists(__DIR__ . '/../tpl/posts/' . $request->uri->getPathElement(2) . '.md')) {
+            $response->get('Content')->setData('markdown', Markdown::parse(\file_get_contents(__DIR__ . '/../tpl/posts/' . $request->uri->getPathElement(2) . '.md')));
         }
     }
 }
