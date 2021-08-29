@@ -103,8 +103,8 @@ class InfoController
         $view = new View();
         $view->setTemplate('/app/tpl/info_doc');
 
-        if (\file_exists(__DIR__ . '/../tpl/articles/news/' . $request->getUri()->getPathElement(3) . '.md')) {
-            $view->setData('markdown', Markdown::parse(\file_get_contents(__DIR__ . '/../tpl/articles/news/' . $request->getUri()->getPathElement(3) . '.md')));
+        if (\file_exists(__DIR__ . '/../tpl/articles/news/' . $request->uri->getPathElement(3) . '.md')) {
+            $view->setData('markdown', Markdown::parse(\file_get_contents(__DIR__ . '/../tpl/articles/news/' . $request->uri->getPathElement(3) . '.md')));
         }
 
         return $view;
