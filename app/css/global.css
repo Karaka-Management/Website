@@ -227,6 +227,10 @@ main {
     margin-left: 1rem;
 }
 
+.block li {
+    line-height: 1.5rem;
+}
+
 .block ul p {
     margin: 0;
     padding: 0;
