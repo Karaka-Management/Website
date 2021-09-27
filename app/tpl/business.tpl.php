@@ -134,17 +134,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="block block3">
-                <div class="floater">
-                    <h1>Orange-Management</h1>
-                    <p>With Orange-Management you have one partner who can provide all the tools and software solutions you are used to. Our solutions can be used independently from each other or fully integrated with other solutions we provide. By choosing Orange-Management as your partner you'll be able to adjust your software based on the changes in your requirements without worrying about integration and workflow optimization. </p>
-
-                    <div class="tcenter spacer"><img alt="flow tree" loading="lazy" src="app/img/undraw_business_deal_cpi9.svg" width="60%"></div>
-
-                    <p>We believe software should support a business in it's daily tasks and growth in a very efficient way without frustration. In order to achieve this we constantly take feedback from our customers and expand and improve our software solutions. Since we believe in our software and transparent business model you can see all our prices in our shop and live test parts of our application and it's modules in our demo application without any registration or inquiry.</p>
-                </div>
-            </div>
         </main>
 
         <?php include __DIR__ . '/footer.tpl.php'; ?>
