@@ -1,12 +1,12 @@
 [submodule "phpOMS"]
 	path = phpOMS
-	url = https://github.com/Orange-Management/phpOMS.git
+	url = https://github.com/karaka-management/phpOMS.git
 [submodule "Documentation"]
 	path = Documentation
-	url = https://github.com/Orange-Management/Documentation.git
+	url = https://github.com/karaka-management/Documentation.git
 [submodule "Developer-Guide"]
 	path = Developer-Guide
-	url = https://github.com/Orange-Management/Developer-Guide.git
+	url = https://github.com/karaka-management/Developer-Guide.git
 [submodule "Modules"]
 	path = Modules
-	url = https://github.com/Orange-Management/Modules.git
+	url = https://github.com/karaka-management/Modules.git

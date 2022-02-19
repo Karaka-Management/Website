@@ -6,10 +6,10 @@ It goes without saying that these changes are obviously breaking changes which h
 
 The commits can be found here:
 
-* Application: https://github.com/Orange-Management/Orange-Management/commit/71fb36abdafd40269d39a17b7992a4ff1af48f5a
-* jsOMS: https://github.com/Orange-Management/jsOMS/commit/89acb321f9e2d78a8b601f123c31b39c8554d122
-* Modules: https://github.com/Orange-Management/Modules/commit/ef66465114fe6f20228727315d65ea34d68c6e59
-* cssOMS: https://github.com/Orange-Management/cssOMS/commit/400bc04405ffad8d3ab7e68ff6d14a5bfd9ad03f
+* Application: https://github.com/karaka-management/Orange-Management/commit/71fb36abdafd40269d39a17b7992a4ff1af48f5a
+* jsOMS: https://github.com/karaka-management/jsOMS/commit/89acb321f9e2d78a8b601f123c31b39c8554d122
+* Modules: https://github.com/karaka-management/Modules/commit/ef66465114fe6f20228727315d65ea34d68c6e59
+* cssOMS: https://github.com/karaka-management/cssOMS/commit/400bc04405ffad8d3ab7e68ff6d14a5bfd9ad03f
 
 Please note that the unit tests are not yet fixed. Only the tests in the `cssOMS` framework should be fixed.
 

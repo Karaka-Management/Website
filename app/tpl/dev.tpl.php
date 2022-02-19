@@ -65,7 +65,7 @@
                             <ul>
                                 <li><a href="Inspection/Test/Php/DocBlock/">Documentation</a>
                                 <li><a href="Inspection/Framework/phploc.log">LOC</a>
-                                <li><a href="https://github.com/Orange-Management/phpOMS/issues">Issues</a>
+                                <li><a href="https://github.com/karaka-management/phpOMS/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
@@ -73,7 +73,7 @@
                             <h1>jsOMS</h1>
                             <p>Not yet implemented</p>
                             <ul>
-                                <li><a href="https://github.com/Orange-Management/jsOMS/issues">Issues</a>
+                                <li><a href="https://github.com/karaka-management/jsOMS/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
@@ -96,7 +96,7 @@
                             <h2>Other</h2>
                             <ul>
                                 <li><a href="Inspection/Web/phploc.log">LOC</a>
-                                <li><a href="https://github.com/Orange-Management/Orange-Management/issues">Issues</a>
+                                <li><a href="https://github.com/karaka-management/Orange-Management/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
@@ -118,7 +118,7 @@
                             <h2>Other</h2>
                             <ul>
                                 <li><a href="Inspection/Modules/phploc.log">LOC</a>
-                                <li><a href="https://github.com/Orange-Management/Modules/issues">Issues</a>
+                                <li><a href="https://github.com/karaka-management/Modules/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
@@ -127,7 +127,7 @@
                             <p>Not yet implemented</p>
                             <h2>Other</h2>
                             <ul>
-                                <li><a href="https://github.com/Orange-Management/cssOMS/issues">Issues</a>
+                                <li><a href="https://github.com/karaka-management/cssOMS/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
@@ -136,7 +136,7 @@
                             <p>Not yet implemented</p>
                             <h2>Other</h2>
                             <ul>
-                                <li><a href="https://github.com/Orange-Management/Documentation/issues">Issues</a>
+                                <li><a href="https://github.com/karaka-management/Documentation/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
@@ -145,7 +145,7 @@
                             <p>Not yet implemented</p>
                             <h2>Other</h2>
                             <ul>
-                                <li><a href="https://github.com/Orange-Management/Developer-Guide/issues">Issues</a>
+                                <li><a href="https://github.com/karaka-management/Developer-Guide/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
@@ -154,7 +154,7 @@
                             <p>Not yet implemented</p>
                             <h2>Other</h2>
                             <ul>
-                                <li><a href="https://github.com/Orange-Management/Build/issues">Issues</a>
+                                <li><a href="https://github.com/karaka-management/Build/issues">Issues</a>
                             </ul>
                         </div>
                     </div>

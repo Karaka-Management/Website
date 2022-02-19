@@ -1,6 +1,6 @@
 # Test Report Generator
 
-With a new tool we created we are now able to automatically generate test reports which can be used by customers, partners and auditors to check our software tests. The tool supports custom templates and different languages. The tool is released under MIT on github at: https://github.com/Orange-Management/TestReportGenerator
+With a new tool we created we are now able to automatically generate test reports which can be used by customers, partners and auditors to check our software tests. The tool supports custom templates and different languages. The tool is released under MIT on github at: https://github.com/karaka-management/TestReportGenerator
 
 
 ## What is the TestReportGenerator

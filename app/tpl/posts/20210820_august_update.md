@@ -20,7 +20,7 @@ It's been some time since the last update post for which reason This post contai
 
 ### Improvements
 
-* The `demoSetup/setup.php` script from the [https://github.com/Orange-Management/demoSetup](demoSetup) repository
+* The `demoSetup/setup.php` script from the [https://github.com/karaka-management/demoSetup](demoSetup) repository
 * Missing/invalid localization identifiers no longer only output `ERROR` but `ERROR-identifier`. This makes it much easier to find the invalid localization.
 * Removed many getters/setters with public member variables
 
