@@ -10,7 +10,7 @@ Our pages and different services are available from the following urls:
 
 | URL                                                                | Type         |
 |--------------------------------------------------------------------|--------------|
-| [orange-management.org](https://orange-management.org)             | Normal URL   |
+| [karaka.app](https://karaka.app)             | Normal URL   |
 | [orange-management.net](https://orange-management.net)             | Normal URL   |
 | [orange-management.business](https://orange-management.business)   | Normal URL   |
 | [orange-management.solutions](https://orange-management.solutions) | Normal URL   |

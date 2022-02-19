@@ -19,7 +19,7 @@ The advantage compared to other alternatives like `@testdox` from PHPUnit are:
 
 ## Demo
 
-http://orange-management.org/Inspection/Test/ReportExternal/index.htm
+http://karaka.app/Inspection/Test/ReportExternal/index.htm
 
 ## Usage
 

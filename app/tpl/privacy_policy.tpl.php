@@ -25,7 +25,7 @@
                         <li>SERVICE refers to the Website</li>
                         <li>POLICY or AGREEMENT mean these policies that form the entire agreement between You and the COMPANY regarding the use of the SERVICE.</li>
                         <li>Third-party Social Media SERVICE means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the SERVICE.</li>
-                        <li>WEBSITE refers to orange-management.org (.net, .app, .service, .support, .email, .de, .solutions)</li>
+                        <li>WEBSITE refers to karaka.app (.net, .app, .service, .support, .email, .de, .solutions)</li>
                         <li>APPLICATION refers to all downloadable or installable content which can therfore be used on an a given DEVICE.</li>
                         <li>You means the individual accessing or using the SERVICE, or the company, or other legal entity on behalf of which such individual is accessing or using the SERVICE, as applicable.</li>
                     </ul>

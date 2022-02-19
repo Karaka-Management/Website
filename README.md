@@ -37,7 +37,7 @@ Please note if you are only interested in using the framework without the web ap
 
 After installing the requirements and configuring the webserver for the correct path navigate to https://your_url.com/Install and follow the installation process. Afterwards you will be redirected to the installed backend.
 
-For more detailed information please checkout the [Installation Guide](https://orange-management.org/dev/guide?page=setup/installation) for developers or the [Installation Guide](https://orange-management.org/info?page=setup/server) for end-users.
+For more detailed information please checkout the [Installation Guide](https://karaka.app/dev/guide?page=setup/installation) for developers or the [Installation Guide](https://karaka.app/info?page=setup/server) for end-users.
 
 ## Philosophy
 
@@ -49,7 +49,7 @@ Since we believe in our software and transparent business model you can live tes
 
 Currently Orange Management is still developing the first Alpha version. As soon as we have a running Beta version we are allowing external testers to use our software and a selected amount of inhouse developed modules. The **phpOMS** framework is the component which is developed the furthest and already provides a large amount of functionality which is required by the whole project.
 
-General updates can be found in our info section at https://orange-management.org/info and developer updates can be found in our developer section at https://orange-management.org/dev. In our developer section you can also check out the automatically generated reports such as code coverage, code style, static analysis etc. as well as our code style guide lines and developer documentation.
+General updates can be found in our info section at https://karaka.app/info and developer updates can be found in our developer section at https://karaka.app/dev. In our developer section you can also check out the automatically generated reports such as code coverage, code style, static analysis etc. as well as our code style guide lines and developer documentation.
 
 ![Preview](https://raw.githubusercontent.com/Orange-Management/Assets/master/art/preview.png)
 
@@ -62,12 +62,12 @@ Orange-Management has a very open culture and we always welcome new people who s
 * Artist and/or Frontend
 * DevOps
 
-Check out https://orange-management.org/career and our developer section https://orange-management.org/dev for more information.
+Check out https://karaka.app/career and our developer section https://karaka.app/dev for more information.
 
 ## Misc
 
 * Languages: PHP, JS, HTML, CSS
-* Website: [https://orange-management.org](https://orange-management.org)
+* Website: [https://karaka.app](https://karaka.app)
 * Demo: [https://orange-management.app](https://orange-management.app) (user: admin, pass: orange)
-* Dev: [https://orange-management.org/dev](https://orange-management.org/dev)
+* Dev: [https://karaka.app/dev](https://karaka.app/dev)
 * Contact: dennis@orange-management.email

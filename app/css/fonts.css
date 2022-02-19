@@ -302,6 +302,7 @@
   src: url(fonts/Roboto-Black.ttf) format('truetype');
   unicode-range: U+1F00-1FFF;
 }
+}
 /* greek */
 @font-face {
   font-family: 'Roboto';
