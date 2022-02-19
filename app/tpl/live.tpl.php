@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <title>Orange-Management - Services</title>
+        <title>Karaka - Services</title>
         <?php include __DIR__ . '/head.tpl.php'; ?>
         <link rel="stylesheet" href="app/css/live.css">
         <script src="https://embed.twitch.tv/embed/v1.js"></script>

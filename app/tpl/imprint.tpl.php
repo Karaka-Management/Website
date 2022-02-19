@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <title>Orange-Management - Imprint</title>
+        <title>Karaka - Imprint</title>
         <?php include __DIR__ . '/head.tpl.php'; ?>
         <link rel="stylesheet" href="app/css/imprint.css">
     </head>
@@ -13,7 +13,7 @@
             <div class="block">
                 <div class="floater">
                     <h1>Imprint</h1>
-                    <p>Orange-Management</p>
+                    <p>Karaka</p>
 
                     <h2>Vertreten durch</h2>
                     <p>Dennis Eichhorn</p>
@@ -28,7 +28,7 @@
                     <p>Nicht vorhanden</p>
 
                     <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
-                    <p>Orange-Management</p>
+                    <p>Karaka</p>
                     <p>Dennis Eichhorn</p>
 
                     <h2>Datenschutzbeauftragter</h2>

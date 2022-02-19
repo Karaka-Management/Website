@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <title>Orange-Management - Info</title>
+        <title>Karaka - Info</title>
         <?php include __DIR__ . '/head.tpl.php'; ?>
         <link rel="stylesheet" href="app/css/info.css">
     </head>

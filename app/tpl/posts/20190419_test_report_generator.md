@@ -89,4 +89,4 @@ Check out the default template for an example `$result['info']['description'];`
 
 ## Preview
 
-![sample](https://raw.githubusercontent.com/Orange-Management/TestReportGenerator/master/img/sample.jpg)
+![sample](https://raw.githubusercontent.com/Karaka-Management/TestReportGenerator/master/img/sample.jpg)

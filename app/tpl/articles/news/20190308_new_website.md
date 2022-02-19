@@ -2,7 +2,7 @@
 
 Our new website layout is now online and contains information about the services and solutions we will offer in the future.
 
-We decided to go with a purple color schema which provides nice contrast to the Orange-Management logo coloring and individually structured pages for the specific content we want to show on that page.
+We decided to go with a purple color schema which provides nice contrast to the Karaka logo coloring and individually structured pages for the specific content we want to show on that page.
 
 ## Urls
 
@@ -11,18 +11,18 @@ Our pages and different services are available from the following urls:
 | URL                                                                | Type         |
 |--------------------------------------------------------------------|--------------|
 | [karaka.app](https://karaka.app)             | Normal URL   |
-| [orange-management.net](https://orange-management.net)             | Normal URL   |
-| [orange-management.business](https://orange-management.business)   | Normal URL   |
-| [orange-management.solutions](https://orange-management.solutions) | Normal URL   |
-| [orange-management.services](https://orange-management.services)   | Normal URL   |
-| [orange-management.de](https://orange-management.de)               | Normal URL   |
-| [orange-management.info](https://orange-management.info)           | Info URL     |
-| [orange-management.shop](https://orange-management.shop)           | Shop URL     |
-| [orange-management.support](https://orange-management.support)     | Support URL  |
-| [orange-management.email](https://orange-management.email)         | Email URL    |
-| [orange-management.app](https://orange-management.app)             | Demo app URL |
-| [orange-management.live](https://orange-management.live)           | Video URL    |
-| [orange-management.dev](https://orange-management.dev)             | Dev URL      |
+| [karaka.net](https://karaka.net)             | Normal URL   |
+| [karaka.business](https://karaka.business)   | Normal URL   |
+| [karaka.solutions](https://karaka.solutions) | Normal URL   |
+| [karaka.services](https://karaka.services)   | Normal URL   |
+| [karaka.de](https://karaka.de)               | Normal URL   |
+| [karaka.info](https://karaka.info)           | Info URL     |
+| [karaka.shop](https://karaka.shop)           | Shop URL     |
+| [karaka.support](https://karaka.support)     | Support URL  |
+| [karaka.email](https://karaka.email)         | Email URL    |
+| [karaka.app](https://karaka.app)             | Demo app URL |
+| [karaka.live](https://karaka.live)           | Video URL    |
+| [karaka.dev](https://karaka.dev)             | Dev URL      |
 
 ### Next steps
 

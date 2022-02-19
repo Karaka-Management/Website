@@ -4,7 +4,7 @@
             <div>
                 <h1>About</h1>
                 <div>
-                    <p>Orange-Management was founded in XXX by Dennis Eichhorn and provides smart business solutions for every company size. Managing and performing daily business tasks has naver been easier.</p>
+                    <p>Karaka was founded in XXX by Dennis Eichhorn and provides smart business solutions for every company size. Managing and performing daily business tasks has naver been easier.</p>
                     <p>Our software is user friendly, performant, affordable and just works.</p>
                 </div>
             </div>

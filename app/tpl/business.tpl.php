@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <title>Orange-Management - Business</title>
+        <title>Karaka - Business</title>
         <?php include __DIR__ . '/head.tpl.php'; ?>
         <link rel="stylesheet" loading="lazy" href="app/css/business.css">
-        <meta name="description" content="Orange Management business application for ERP, CRM, Finance, Intranet, Office and more.">
+        <meta name="description" content="Karaka business application for ERP, CRM, Finance, Intranet, Office and more.">
     </head>
     <body>
         <header>
@@ -14,7 +14,7 @@
                 <div id="header-content">
                     <span class="box slide-up-fade-in">
                         <h1>Business Software done right!</h1>
-                        <p>Modern business software in one application for all company sizes and types. The Orange-Management software supports you with your tasks and relieves you from as much administrative work as possible so you can focus on the important aspects of your business.</p>
+                        <p>Modern business software in one application for all company sizes and types. The Karaka software supports you with your tasks and relieves you from as much administrative work as possible so you can focus on the important aspects of your business.</p>
                     </span>
                     <span class="img"><img alt="logo" src="app/img/logo.png"></span>
                 </div>
@@ -28,18 +28,18 @@
                             <div class="box1 box">
                                 <div class="tcenter"><img alt="calendar" loading="lazy" src="app/img/undraw_calendar_dutt.svg" width="60%"></div>
                                 <h1>Manage your Business</h1>
-                                <p>Orange-Management provides all the tools you need in order to manage your business and handle it's activities in one eco-system. You and your team will be able to focus on the important things allowing your business to grow.</p>
+                                <p>Karaka provides all the tools you need in order to manage your business and handle it's activities in one eco-system. You and your team will be able to focus on the important things allowing your business to grow.</p>
                             </div>
                             <div class="box1 box">
                                 <div class="tcenter"><img alt="devices" loading="lazy" src="app/img/undraw_progressive_app_m9ms.svg" width="82%"></div>
                                 <h1>Unlock all Platforms</h1>
-                                <p>Use the Orange-Management application from every platform from every place. You can collaborate with your team, no matter if you use cellphone, tablet or PC and have full control over everything.</p>
+                                <p>Use the Karaka application from every platform from every place. You can collaborate with your team, no matter if you use cellphone, tablet or PC and have full control over everything.</p>
                                 <p></p>
                             </div>
                             <div class="box1 box">
                                 <div class="tcenter"><img alt="report" loading="lazy" src="app/img/undraw_visual_data_b1wx.svg" width="67%"></div>
                                 <h1>Comprehensive Insights</h1>
-                                <p>Gain full insights about every aspect of your business in easy to understand reports and analysis. Let Orange-Management help you with improving your workflows and business operations.</p>
+                                <p>Gain full insights about every aspect of your business in easy to understand reports and analysis. Let Karaka help you with improving your workflows and business operations.</p>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                 <div class="block1-b">
                     <div class="floater">
                         <h1>Grow your Business</h1>
-                        <h2>The key to a successful business is the amount of time you can efficiently focus on your core business operations and how well a software can support you with these tasks. Orange-Management provides you with the following benefits:</h2>
+                        <h2>The key to a successful business is the amount of time you can efficiently focus on your core business operations and how well a software can support you with these tasks. Karaka provides you with the following benefits:</h2>
                         <div class="flex section">
                             <div class="box left">
                                 <div class="flex">
@@ -106,7 +106,7 @@
                 <div class="floater">
                     <span class="box">
                         <h1>Getting Started</h1>
-                        <h2>The setup of the Orange-Management application is very simple and can be done within a couple of minutes. In order to test the software feel free to check our <a href="https://orange-management.app">demo</a> application. </h2>
+                        <h2>The setup of the Karaka application is very simple and can be done within a couple of minutes. In order to test the software feel free to check our <a href="https://karaka.app">demo</a> application. </h2>
                     </span>
                     <div class="flex section">
                         <div class="box">

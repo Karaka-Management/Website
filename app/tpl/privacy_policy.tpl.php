@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <title>Orange-Management - Privacy Policy</title>
+        <title>Karaka - Privacy Policy</title>
         <?php include __DIR__ . '/head.tpl.php'; ?>
     </head>
     <body>
@@ -12,7 +12,7 @@
             <div class="block">
                 <div class="floater">
                     <h1>Privacy Policy</h1>
-                    <p>This privacy policy ("POLICY") will help you understand how [name] ("us", "we", "our") uses and protects the data you provide to us when you visit and use Orange-Management ("website", "service" and "application").</p>
+                    <p>This privacy policy ("POLICY") will help you understand how [name] ("us", "we", "our") uses and protects the data you provide to us when you visit and use Karaka ("website", "service" and "application").</p>
 
                     <h2>Definitions</h2>
                     <p>For the purposes of these POLICIES:<p>
@@ -20,7 +20,7 @@
                     <ul>
                         <li>AFFILIATED means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
                         <li>COUNTRY refers to Germany</li>
-                        <li>COMPANY (referred to as either "the Company", "We", "Us" or "Our" in this AGREEMENT) refers to Orange Management, Gartenstr. 26, 61206 Woellstadt.</li>
+                        <li>COMPANY (referred to as either "the Company", "We", "Us" or "Our" in this AGREEMENT) refers to Karaka, Gartenstr. 26, 61206 Woellstadt.</li>
                         <li>DEVICE means any device that can access the SERVICE such as a computer, a cellphone or a digital tablet.</li>
                         <li>SERVICE refers to the Website</li>
                         <li>POLICY or AGREEMENT mean these policies that form the entire agreement between You and the COMPANY regarding the use of the SERVICE.</li>
@@ -51,7 +51,7 @@
                     </ul>
 
                     <h2>Safeguarding and Securing the Data</h2>
-                    <p>Orange-Management is committed to securing your data and keeping it confidential. Orange-Management has done all in its power to prevent data theft, unauthorized access, and disclosure by implementing the latest technologies and software, which help us safeguard all the information we collect online.</p>
+                    <p>Karaka is committed to securing your data and keeping it confidential. Karaka has done all in its power to prevent data theft, unauthorized access, and disclosure by implementing the latest technologies and software, which help us safeguard all the information we collect online.</p>
 
                     <h2>Our Cookie Policy</h2>
                     <p>Once you agree to allow our WEBSITE or APPLICATION to use cookies, you also agree to these POLICIES.</p>
@@ -72,7 +72,7 @@
                         <li>If you have already agreed to share your information with us, feel free to contact us via email and we will be more than happy to change this for you.</li>
                     </ul>
 
-                    <p>Orange-Management will not lease, sell or distribute your personal information to any third parties, unless we have your permission. We might do so if the law forces us. Your personal information will be used when we need to send you promotional materials if you agree to this privacy policy.</p>
+                    <p>Karaka will not lease, sell or distribute your personal information to any third parties, unless we have your permission. We might do so if the law forces us. Your personal information will be used when we need to send you promotional materials if you agree to this privacy policy.</p>
 
                     <h2>Governing Law</h2>
                     <p>The laws of the COUNTRY, excluding its conflicts of law rules, shall govern this POLICY and Your use of the SERVICE. Your use of the APPLICATION may also be subject to other local, state, national, or international laws.</p>
@@ -86,7 +86,7 @@
                     <p>By continuing to access or use Our SERVICE after those revisions become effective, You agree to be bound by the revised policies. If You do not agree to the new policies, in whole or in part, please stop using the WEBSITE and the SERVICE.</p>
 
                     <h2>Contact</h2>
-                    <p>For questions regarding these POLICIES please feel free to contact us at info@orange-management.email</p>
+                    <p>For questions regarding these POLICIES please feel free to contact us at info@karaka.email</p>
                 </div>
             </div>
         </main>

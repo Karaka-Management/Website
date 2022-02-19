@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <title>Orange-Management - Contact</title>
+        <title>Karaka - Contact</title>
         <?php include __DIR__ . '/head.tpl.php'; ?>
         <link rel="stylesheet" href="app/css/contact.css">
     </head>

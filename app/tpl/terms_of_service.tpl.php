@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <title>Orange-Management - Terms</title>
+        <title>Karaka - Terms</title>
         <?php include __DIR__ . '/head.tpl.php'; ?>
     </head>
     <body>
@@ -19,7 +19,7 @@
                     <ul>
                         <li>AFFILIATED means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
                         <li>COUNTRY refers to Germany</li>
-                        <li>COMPANY (referred to as either "the Company", "We", "Us" or "Our" in this AGREEMENT) refers to Orange Management, Gartenstr. 26, 61206 Woellstadt.</li>
+                        <li>COMPANY (referred to as either "the Company", "We", "Us" or "Our" in this AGREEMENT) refers to Karaka, Gartenstr. 26, 61206 Woellstadt.</li>
                         <li>DEVICE means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
                         <li>SERVICE refers to the Website</li>
                         <li>TERMS or AGREEMENT mean these terms that form the entire agreement between You and the COMPANY regarding the use of the SERVICE.</li>
@@ -37,7 +37,7 @@
                     <p>Your access to and use of the SERVICE is also conditioned on Your acceptance of and compliance with the Privacy Policy of the COMPANY. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the WEBSITE and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our SERVICE.</p>
 
                     <h2>Copyright</h2>
-                    <p>Unless otherwise noted, all materials including without limitation, logos, brand names, images, designs, photographs, videos, audio, source code and written and other materials that appear as part of our WEBSITE are copyrights, trademarks, service marks, trade dress and/or other intellectual property whether registered or unregistered ("Intellectual Property") owned, controlled or licensed by Orange-Management. Our WEBSITE as a whole is protected by copyright and trade dress. Nothing on our WEBSITE should be construed as granting, by implication, estoppel or otherwise, any license or right to use any Intellectual Property displayed or used on our WEBSITE, without the prior written permission of the Intellectual Property owner. Orange-Management aggressively enforces its intellectual property rights to the fullest extent of the law. The names and logos of Orange-Management, may not be used in any way, including in advertising or publicity pertaining to distribution of materials on our WEBSITE, without prior, written permission from Orange-Management. Orange-Management prohibits use of any logo of Orange-Management or any of its affiliates as part of a link to or from any WEBSITE unless Orange-Management approves such link in advance and in writing. Fair use of Orange-Management Intellectual Property requires proper acknowledgment. Other product and company names mentioned in our Website may be the Intellectual Property of their respective owners.</p>
+                    <p>Unless otherwise noted, all materials including without limitation, logos, brand names, images, designs, photographs, videos, audio, source code and written and other materials that appear as part of our WEBSITE are copyrights, trademarks, service marks, trade dress and/or other intellectual property whether registered or unregistered ("Intellectual Property") owned, controlled or licensed by Karaka. Our WEBSITE as a whole is protected by copyright and trade dress. Nothing on our WEBSITE should be construed as granting, by implication, estoppel or otherwise, any license or right to use any Intellectual Property displayed or used on our WEBSITE, without the prior written permission of the Intellectual Property owner. Karaka aggressively enforces its intellectual property rights to the fullest extent of the law. The names and logos of Karaka, may not be used in any way, including in advertising or publicity pertaining to distribution of materials on our WEBSITE, without prior, written permission from Karaka. Karaka prohibits use of any logo of Karaka or any of its affiliates as part of a link to or from any WEBSITE unless Karaka approves such link in advance and in writing. Fair use of Karaka Intellectual Property requires proper acknowledgment. Other product and company names mentioned in our Website may be the Intellectual Property of their respective owners.</p>
 
                     <h2>Links</h2>
                     <p>Our SERVICE may contain links to third-party web sites or services that are not owned or controlled by the COMPANY.</p>
@@ -73,7 +73,7 @@
                     <p>By continuing to access or use Our SERVICE after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the WEBSITE and the SERVICE.</p>
 
                     <h2>Contact</h2>
-                    <p>For questions regarding these TERMS please feel free to contact us at info@orange-management.email</p>
+                    <p>For questions regarding these TERMS please feel free to contact us at info@karaka.email</p>
                 </div>
             </div>
         </main>

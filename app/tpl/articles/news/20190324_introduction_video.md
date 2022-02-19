@@ -1,10 +1,10 @@
 # Introduction Video & Patreon
 
-The introduction video for the Orange-Management project got created and uploaded to youtube. The next episodes will focus on development aspects in order to provide sufficient information for potential new contributors and interested people in general.
+The introduction video for the Karaka project got created and uploaded to youtube. The next episodes will focus on development aspects in order to provide sufficient information for potential new contributors and interested people in general.
 
 Topics which are covered in this video are:
 
-* What is Orange-Management?
+* What is Karaka?
 * What is the goal of the project?
 * How do we believe to be able to achieve these goals?
 * What is the current status of the project?

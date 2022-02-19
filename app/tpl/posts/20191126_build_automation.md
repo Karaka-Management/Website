@@ -14,4 +14,4 @@ The local tools and scripts are still more comprehensive but the build automatio
 
 The future goal is to add more automated steps like the deployment to our public test server, documentation generation and most importantly automatic generation of update packages for the users.
 
-Build Automation: https://github.com/karaka-management/Orange-Management/actions
+Build Automation: https://github.com/karaka-management/Karaka/actions

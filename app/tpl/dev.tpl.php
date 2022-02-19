@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <title>Orange-Management - Dev</title>
+        <title>Karaka - Dev</title>
         <?php include __DIR__ . '/head.tpl.php'; ?>
         <link rel="stylesheet" href="app/css/dev.css">
     </head>
@@ -96,7 +96,7 @@
                             <h2>Other</h2>
                             <ul>
                                 <li><a href="Inspection/Web/phploc.log">LOC</a>
-                                <li><a href="https://github.com/karaka-management/Orange-Management/issues">Issues</a>
+                                <li><a href="https://github.com/karaka-management/Karaka/issues">Issues</a>
                             </ul>
                         </div>
                         <div class="box1 box">
