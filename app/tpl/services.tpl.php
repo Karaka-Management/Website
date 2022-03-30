@@ -104,21 +104,6 @@
                     </div>
                 </div>
             </div>
-            <div class="block block1">
-                <div class="floater flex">
-                    <div class="box">
-                        <h1>Mini Server</h1>
-                        <p>If you are a small company you maybe don't have a server or dedicated PC for your business software. This is perfectly fine but if you want to make the next step with a dedicated server but want this server located at your own company instead of hosting it on our servers we provide different hardware solutions which we can setup with your application configuration and ship to you. You simply plug it in at your company and you are ready to go.</p>
-
-                        <p>Prices start at: $X.<p>
-
-                        <button class="large">More</button>
-                    </div>
-                    <div class="box">
-                        <img src="app/img/undraw_server_q2pb.svg" loading="lazy" width="75%">
-                    </div>
-                </div>
-            </div>
         </main>
 
         <?php include __DIR__ . '/footer.tpl.php'; ?>
